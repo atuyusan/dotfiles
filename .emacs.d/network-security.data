@@ -1,0 +1,5 @@
+(
+ (:id "sha1:d6d4661088614a1368486aef36a333a7b4db3999" :fingerprint "sha1:a9:08:49:d8:cb:d6:61:c7:aa:45:26:4e:b9:2e:2b:51:3a:64:26:1c" :host "www.emacswiki.org:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:379522f41fcdf5d279b33c30780e7512c9348430" :fingerprint "sha1:b5:fa:0c:f2:e6:98:dd:d6:2f:04:e4:40:4f:aa:11:80:17:04:f7:c8" :host "github.com:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:85457c729378cc93c732b6a3941c8e4f9c2e60f3" :fingerprint "sha1:ab:a6:d7:6a:b3:d3:63:fa:19:0d:65:41:60:23:6e:ef:d3:2a:46:dc" :host "marmalade-repo.org:443" :conditions (:expired :insecure :unknown-ca :invalid))
+)

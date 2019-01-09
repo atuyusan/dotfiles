@@ -1,0 +1,53 @@
+ls
+ll
+la 
+ll
+cd
+ls
+ll
+exit
+ls
+cd
+cd Dropbox/study/
+ls
+cd rails/toy_app/
+ls -a
+git branch
+echo $SHELL
+alias la 'ls -a'
+la 
+alias ll 'ls -l'
+ll
+history
+which rails
+which brew
+alias rm 'rm -i'
+ls
+cd
+ls
+touch file
+eit
+exit
+ls
+cd
+la
+ll
+ls
+touch file
+eixt
+exit
+ls
+cd
+touch file
+ls
+rm file
+ls
+rm file
+ls
+exit
+clisp
+cd ../Dropbox/study/rails/toy_app
+echo $SHELL
+exit
+c++ area.cpp 
+exit
