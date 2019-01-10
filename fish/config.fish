@@ -20,23 +20,15 @@ alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
 set -x LSCOLORS 'gxfxcxdxhxegedabagacad'
 alias la='ls -a'
 
-# cd > ls
-function cd
-  builtin cd $argv
-  ls -a
-end
-
 source (conda info --root)/etc/fish/conf.d/conda.fish
-
-# avoid warning of brew doctor
-function brew
-  set tmp_PATH $PATH
-  set -l i (contains -i $HOME/.pyenv/shims $PATH)
-  set PATH[$i] /bin  # bin is dummy
-  
-  command brew $argv
-  set PATH $tmp_PATH
-end
 
 # nodebrew
 set -U fish_user_paths $fish_user_paths $HOME/.nodebrew/current/bin
+
+# syntax hightlight
+set fish_color_normal 'd6d6d6'
+set fish_color_command '2efef7'
+set fish_color_param '2efef7'
+set fish_color_redirection '00ff00'
+set fish_color_error 'fa58f4'
+set fish_color_quote 'd6d6d6'
