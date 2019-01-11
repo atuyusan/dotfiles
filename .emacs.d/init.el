@@ -161,7 +161,7 @@
 (require 'recentf-ext)  ;; find file 以外も含める拡張
 
 ;; dumb-jump
-(setq dumb-jump-mode t)
+(require 'dumb-jump)
 (defvar dumb-jump-selector 'ivy)
 (defvar dumb-jump-use-visible-window nil)
 (defvar dumb-jump-default-project "")
@@ -392,7 +392,7 @@ load-path))
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (undohist undo-tree dumb-jump flycheck markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (dumb-jump undohist undo-tree flycheck markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
