@@ -1,90 +1,261 @@
 
-((digest . "3336e33979f4d7338d1cab1c12cbe468") (undo-list nil ("
-" . -5959) ((marker . 5959) . -1) ((marker . 5931) . -1) ((marker . 5959) . -1) ((marker . 5959) . -1) ((marker) . -1) ((marker) . -1) ("
-" . -5960) ((marker . 5959) . -1) ((marker . 5931) . -1) ((marker* . 5959) . 1) ((marker . 5959) . -1) ((marker . 5959) . -1) ((marker) . -1) ((marker) . -1) 5961 nil ("pr(in)" . -5961) ((marker . 5959) . -6) ((marker* . 5958) . 1) ((marker . 5959) . -6) ((marker* . 5950) . 4) ((marker . 5951) . -3) 5967 (t 23608 17917 431230 847000) nil (5967 . 5968) nil (5961 . 5967) nil (5960 . 5961) (t 23608 16346 145014 583000) nil ("s" . -5465) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5959) . -1) ("e" . -5466) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5959) . -1) ("l" . -5467) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5959) . -1) ("f" . -5468) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5465) . -1) ((marker . 5959) . -1) ("," . -5469) ((marker . 5959) . -1) (" " . -5470) ((marker . 5959) . -1) 5471 (t 23608 16282 703650 760000) nil ("
-" . 5965) ((marker . 5960) . -1) (t 23608 16245 461370 14000) nil (5964 . 5965) nil (5957 . 5964) ("exp_" . -5957) ((marker . 5959) . -4) 5961 nil (5957 . 5961) nil (5956 . 5957) nil ("." . 5947) nil ("interval" . 5947) nil ("i" . -5918) ((marker . 5912) . -1) ((marker . 5912) . -1) ((marker . 5959) . -1) ((marker . 5912) . -1) 5919 nil ("nterval." . -5919) ((marker . 5912) . -7) ((marker . 5912) . -7) ((marker . 5959) . -8) ((marker . 5912) . -7) 5927 (t 23608 16215 633688 297000) nil (5440 . 5443) nil ("変数の" . -5440) ((marker . 5959) . -3) (5440 . 5443) ("変数n" . -5440) ((marker . 5959) . -3) (5440 . 5443) ("変数" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("へんす" . -5440) ((marker . 5959) . -3) (5440 . 5443) ("へんs" . -5440) ((marker . 5959) . -3) (5440 . 5443) ("へn" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("へ" . -5440) ((marker . 5959) . -1) (5440 . 5441) ("h" . -5440) ((marker . 5959) . -1) (5440 . 5441) 5441 nil (5440 . 5443) ("標準化" . -5440) ((marker . 5959) . -3) (5440 . 5443) ("標準k" . -5440) ((marker . 5959) . -3) (5440 . 5443) ("標準" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("ひょうじゅn" . -5440) ((marker . 5959) . -6) (5440 . 5446) ("ひょうじゅ" . -5440) ((marker . 5959) . -5) (5440 . 5445) ("表j" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("表" . -5440) ((marker . 5959) . -1) (5440 . 5441) ("ひょ" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("hy" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("h" . -5440) ((marker . 5959) . -1) (5440 . 5441) ("ひ" . -5440) ((marker . 5959) . -1) (5440 . 5441) ("ヒュ" . -5440) ((marker . 5959) . -2) (5440 . 5442) ("hy" . -5440) ((marker . 5959) . -2) 5442 nil (5440 . 5442) ("h" . -5440) ((marker . 5959) . -1) (5438 . 5441) nil (5437 . 5438) (t 23608 16203 666201 290000) nil (" " . 5442) ((marker . 5778) . -1) (" " . 5442) (" " . 5442) (" " . 5442) nil ("        " . -5564) (5560 . 5564) ("            " . -5517) (5509 . 5517) ("        " . -5493) (5489 . 5493) ("        " . -5478) (5474 . 5478) 5592 nil (5436 . 5441) nil (5971 . 5980) ("nor" . -5971) ((marker . 5959) . -3) 5974 nil (5970 . 5974) nil (5962 . 5970) ("inter" . -5962) ((marker . 5959) . -5) 5967 nil (5962 . 5967) nil ("[" . -5962) ((marker . 5959) . -1) ((marker . 5941) . -1) 5963 nil ("interval.touch_l_prev, interval.peg_r_next, interval.peg_l_next]" . 5963) (t 23608 16040 888027 251000) nil (5582 . 5587) ("new" . -5582) ((marker . 5959) . -3) 5585 nil (5575 . 5585) nil (" " . -5575) ((marker . 5959) . -1) (" " . -5576) ((marker . 5959) . -1) (" " . -5577) ((marker . 5959) . -1) (" " . -5578) ((marker . 5959) . -1) 5579 nil (5566 . 5579) nil ("
-" . 5579) ((marker . 5960) . -1) nil ("        return (x - np.mean(x)) / np.std(x)" . 5579) ((marker . 5588) . -8) ((marker . 5916) . -42) nil ("
-" . 5579) ((marker . 5960) . -1) ((marker . 5588) . -1) nil (5552 . 5553) nil (5558 . 5565) nil (5537 . 5558) nil (5536 . 5537) nil (5536 . 5549) nil (5524 . 5536) nil (5511 . 5524) nil (5510 . 5511) nil (5505 . 5510) ("x_" . -5505) ((marker . 5959) . -2) 5507 nil (5500 . 5507) nil ("i" . -5500) ((marker . 5959) . -1) (" " . -5501) ((marker . 5959) . -1) 5502 nil (5501 . 5502) nil (5496 . 5501) nil (5487 . 5496) nil (5477 . 5487) nil (5468 . 5477) nil (5462 . 5466) (t 23608 15966 235451 304000) nil ("  # 説明変数" . -5936) ((marker . 5959) . -8) 5944 nil (nil rear-nonsticky nil 5737 . 5738) (nil fontified nil 5734 . 5738) (nil fontified nil 5732 . 5734) (nil fontified nil 5730 . 5732) (5730 . 5738) nil ("  # 目的変数" . 5852) nil (nil rear-nonsticky nil 5813 . 5814) (nil fontified nil 5810 . 5814) (nil fontified nil 5808 . 5810) (nil fontified nil 5786 . 5808) (nil fontified nil 5774 . 5786) (nil fontified nil 5765 . 5774) (nil fontified nil 5742 . 5765) (nil fontified nil 5741 . 5742) (5741 . 5814) nil (nil rear-nonsticky nil 5870 . 5871) (nil fontified nil 5867 . 5871) (nil fontified nil 5865 . 5867) (nil fontified nil 5843 . 5865) (nil fontified nil 5831 . 5843) (nil fontified nil 5822 . 5831) (nil fontified nil 5799 . 5822) (nil fontified nil 5798 . 5799) (5798 . 5871) nil ("[interval.touch_l_prev, interval.peg_r_next, interval.peg_l_next]  # 説明変数" . 5798) ((marker* . 5958) . 73) ((marker . 5959) . -1) ((marker* . 5950) . 9) ((marker . 5951) . -65) nil ("[" . -5741) ((marker . 5959) . -1) 5742 nil ("i" . -5742) ((marker . 5959) . -1) ("n" . -5743) ((marker . 5959) . -1) ("t" . -5744) ((marker . 5959) . -1) ("e" . -5745) ((marker . 5959) . -1) ("r" . -5746) ((marker . 5959) . -1) 5747 nil (5735 . 5747) nil ("a" . -5735) ((marker . 5959) . -1) 5736 nil (5731 . 5736) nil (5730 . 5731) nil (5718 . 5730) ("touch_r_" . -5718) ((marker . 5959) . -8) 5726 nil (5717 . 5726) nil (5709 . 5717) ("inte" . -5709) ((marker . 5959) . -4) 5713 nil (5709 . 5713) nil (5703 . 5709) nil ("a" . -5703) ((marker . 5959) . -1) 5704 nil (5703 . 5704) nil ("a" . -5703) ((marker . 5959) . -1) ("r" . -5704) ((marker . 5959) . -1) (" " . -5705) ((marker . 5959) . -1) 5706 nil (5703 . 5706) nil ("a" . -5703) ((marker . 5959) . -1) ("v" . -5704) ((marker . 5959) . -1) ("r" . -5705) ((marker . 5959) . -1) (" " . -5706) ((marker . 5959) . -1) 5707 nil (5703 . 5707) nil (5699 . 5703) nil (5698 . 5699) nil (5728 . 5735) ("obj_" . -5728) ((marker . 5959) . -4) 5732 nil (5728 . 5732) nil ("i" . -5728) ((marker . 5959) . -1) ((marker . 5922) . -1) ("n" . -5729) ((marker . 5959) . -1) ((marker . 5922) . -1) ("t" . -5730) ((marker . 5959) . -1) ((marker . 5922) . -1) ("e" . -5731) ((marker . 5959) . -1) ((marker . 5922) . -1) ("r" . -5732) ((marker . 5959) . -1) ((marker . 5922) . -1) ("v" . -5733) ((marker . 5959) . -1) ((marker . 5922) . -1) ("a" . -5734) ((marker . 5959) . -1) ((marker . 5922) . -1) ("l" . -5735) ((marker . 5959) . -1) ((marker . 5922) . -1) ("." . -5736) ((marker . 5959) . -1) ((marker . 5922) . -1) ("t" . -5737) ((marker . 5959) . -1) ((marker . 5922) . -1) ("o" . -5738) ((marker . 5959) . -1) ((marker . 5922) . -1) ("u" . -5739) ((marker . 5959) . -1) ((marker . 5922) . -1) ("c" . -5740) ((marker . 5959) . -1) ((marker . 5922) . -1) 5741 nil ("h_r_next" . -5741) ((marker . 5959) . -8) ((marker . 5922) . -8) 5749 (t 23608 15884 520325 715000) nil (5744 . 5749) nil (5736 . 5745) nil (5728 . 5736) ("inter" . -5728) ((marker . 5959) . -5) 5733 nil (5728 . 5733) nil (5727 . 5728) nil (5718 . 5727) ("norma" . -5718) ((marker . 5959) . -5) 5723 nil (5717 . 5723) nil ("." . -5717) ((marker . 5912) . -1) ((marker . 5912) . -1) ((marker . 5959) . -1) ((marker . 5912) . -1) ("t" . -5718) ((marker . 5912) . -1) ((marker . 5912) . -1) ((marker . 5959) . -1) ("o" . -5719) ((marker . 5912) . -1) ((marker . 5912) . -1) ((marker . 5959) . -1) ("u" . -5720) ((marker . 5912) . -1) ((marker . 5912) . -1) ((marker . 5959) . -1) 5721 nil ("ch_r_next" . -5721) ((marker . 5912) . -9) ((marker . 5912) . -9) ((marker . 5959) . -9) 5730 (t 23608 15826 54606 886000) nil (nil fontified t 5506 . 5507) (nil face font-lock-keyword-face 5506 . 5507) ("self" . -5506) (5510 . 5511) nil (nil fontified t 5493 . 5494) (nil face font-lock-keyword-face 5493 . 5494) ("self" . -5493) (5497 . 5498) nil (nil fontified t 5481 . 5482) (nil face font-lock-keyword-face 5481 . 5482) ("self" . -5481) (5485 . 5486) nil (5459 . 5462) (t 23608 15707 925287 916000) nil (")" . -5514) ((marker . 5959) . -1) ((marker* . 5958) . 1) ((marker . 5959) . -1) 5515 nil (5509 . 5515) nil (5498 . 5509) nil (" " . -5498) ((marker . 5959) . -1) 5499 nil (5488 . 5499) nil ("m" . -5488) ((marker . 5959) . -1) ("e" . -5489) ((marker . 5959) . -1) ("a" . -5490) ((marker . 5959) . -1) ("n" . -5491) ((marker . 5959) . -1) 5492 nil (5485 . 5492) nil ("s" . -5485) ((marker . 5959) . -1) ("e" . -5486) ((marker . 5959) . -1) ("l" . -5487) ((marker . 5959) . -1) ("f" . -5488) ((marker . 5959) . -1) ("." . -5489) ((marker . 5959) . -1) 5490 nil (5482 . 5490) nil (5477 . 5478) nil (5477 . 5481) nil (5470 . 5477) nil ("        return new_intr" . 5470) nil ("
-" . 5470) ((marker . 5960) . -1) nil ("        new_intr_lst.append((intr - np.mean(intr)) / np.std(intr))" . 5470) nil ("
-" . 5470) ((marker . 5960) . -1) nil ("new_intr = []" . 5470) nil ("    " . -5492) 5484 nil ("
-" . 5484) ((marker . 5960) . -1) nil ("        for intr in intr_lst::" . 5484) (t 23608 15636 912343 181000) nil ("_" . -5609) ((marker . 5959) . -1) ("l" . -5610) ((marker . 5959) . -1) ("s" . -5611) ((marker . 5959) . -1) ("t" . -5612) ((marker . 5959) . -1) 5613 nil ("_" . -5478) ((marker . 5959) . -1) ("l" . -5479) ((marker . 5959) . -1) ("s" . -5480) ((marker . 5959) . -1) ("t" . -5481) ((marker . 5959) . -1) 5482 (t 23608 15620 678431 623000) nil ("," . -5459) ((marker . 5959) . -1) ((marker . 5465) . -1) 5460 nil (" intr_lst" . -5460) ((marker . 5959) . -9) ((marker . 5465) . -9) 5469 (t 23608 15496 246841 75000) nil ("        
-" . 5629) ((marker . 5960) . -9) nil ("    
-" . 5629) ((marker . 5960) . -5) nil ("
-" . 5629) ((marker . 5960) . -1) nil ("
-" . 5629) ((marker . 5960) . -1) (t 23608 15486 5075 728000) nil ("
-" . 5958) ((marker . 5960) . -1) nil (5957 . 5958) nil (5953 . 5957) ("説明変数" . -5953) ((marker . 5959) . -4) (5953 . 5957) ("説明へんす" . -5953) ((marker . 5959) . -5) (5953 . 5958) ("説明へんs" . -5953) ((marker . 5959) . -5) (5953 . 5958) ("説明へn" . -5953) ((marker . 5959) . -4) (5953 . 5957) ("説明へ" . -5953) ((marker . 5959) . -3) (5953 . 5956) ("説明h" . -5953) ((marker . 5959) . -3) (5953 . 5956) ("説明" . -5953) ((marker . 5959) . -2) (5953 . 5955) ("説め" . -5953) ((marker . 5959) . -2) (5953 . 5955) ("説m" . -5953) ((marker . 5959) . -2) (5953 . 5955) ("説" . -5953) ((marker . 5959) . -1) (5953 . 5954) ("せt" . -5953) ((marker . 5959) . -2) (5953 . 5955) ("せ" . -5953) ((marker . 5959) . -1) (5953 . 5954) ("s" . -5953) ((marker . 5959) . -1) (5953 . 5954) ("え" . -5953) ((marker . 5959) . -1) (5953 . 5954) nil (5949 . 5953) nil (5869 . 5873) ("目的変数" . -5869) ((marker . 5959) . -4) (5869 . 5873) ("目的へんす" . -5869) ((marker . 5959) . -5) (5869 . 5874) ("目的へんs" . -5869) ((marker . 5959) . -5) (5869 . 5874) ("目的へn" . -5869) ((marker . 5959) . -4) (5869 . 5873) ("目的へ" . -5869) ((marker . 5959) . -3) (5869 . 5872) ("目的h" . -5869) ((marker . 5959) . -3) (5869 . 5872) ("目的" . -5869) ((marker . 5959) . -2) (5869 . 5871) ("もくてk" . -5869) ((marker . 5959) . -4) (5869 . 5873) ("もくて" . -5869) ((marker . 5959) . -3) (5869 . 5872) ("もくt" . -5869) ((marker . 5959) . -3) (5869 . 5872) ("もく" . -5869) ((marker . 5959) . -2) (5869 . 5871) ("もk" . -5869) ((marker . 5959) . -2) (5869 . 5871) ("も" . -5869) ((marker . 5959) . -1) (5869 . 5870) ("m" . -5869) ((marker . 5959) . -1) (5865 . 5870) nil (5941 . 5942) (t 23608 15462 785727 237000) nil (5935 . 5941) nil (5929 . 5935) nil (5921 . 5929) ("inter" . -5921) ((marker . 5959) . -5) 5926 nil (5919 . 5926) nil (5909 . 5919) ("peg_r_ne" . -5909) ((marker . 5959) . -8) 5917 nil (5909 . 5917) nil (5900 . 5909) nil (5897 . 5900) nil (5876 . 5897) nil ("[" . -5876) ((marker . 5959) . -1) 5877 nil ("i" . -5877) ((marker . 5959) . -1) ("n" . -5878) ((marker . 5959) . -1) 5879 nil (5876 . 5879) nil ("i" . -5876) ((marker . 5959) . -1) ("n" . -5877) ((marker . 5959) . -1) ("t" . -5878) ((marker . 5959) . -1) 5879 nil (5866 . 5879) nil (5865 . 5866) nil (5853 . 5865) ("touch_r" . -5853) ((marker . 5959) . -7) 5860 nil (5853 . 5860) nil (5851 . 5853) nil ("." . -5851) ((marker . 5959) . -1) 5852 nil (5844 . 5852) nil ("m" . -5844) ((marker . 5959) . -1) ("o" . -5845) ((marker . 5959) . -1) 5846 nil (5834 . 5846) nil (5833 . 5835) nil (5827 . 5833) nil ("#" . -5827) ((marker . 5959) . -1) ((marker . 5960) . -1) 5828 nil (5827 . 5828) nil (5826 . 5827) nil ("      
-" . 5826) ((marker . 5960) . -7) nil ("
-" . 5826) ((marker . 5960) . -1) nil ("print(interval.touch_r_prev[:10])" . 5826) nil ("
-" . 5826) ((marker . 5960) . -1) nil ("print(data.touch_r[1:10])" . 5826) (t 23608 15329 81507 241000) nil ("    def lin_regression" . -5629) ((marker . 5959) . -22) 5651 nil (5633 . 5651) nil (5629 . 5633) ("    " . 5628) ((marker . 5959) . -4) (5627 . 5633) (t 23608 15034 413529 506000) nil (5461 . 5469) ("intr_" . -5461) ((marker . 5959) . -5) 5466 nil (5459 . 5466) nil (5516 . 5517) nil ("
-" . 5488) ((marker . 5960) . -1) nil ("        intr_" . 5488) nil (5496 . 5501) nil (5487 . 5496) (t 23608 14987 341163 746000) nil ("," . -5459) ((marker . 5959) . -1) (" " . -5460) ((marker . 5959) . -1) ("i" . -5461) ((marker . 5959) . -1) ("n" . -5462) ((marker . 5959) . -1) ("t" . -5463) ((marker . 5959) . -1) ("r" . -5464) ((marker . 5959) . -1) ("_" . -5465) ((marker . 5959) . -1) ("l" . -5466) ((marker . 5959) . -1) ("s" . -5467) ((marker . 5959) . -1) ("t" . -5468) ((marker . 5959) . -1) 5469 (t 23608 14945 546386 228000) nil (5628 . 5632) ("    " . 5627) ((marker . 5959) . -4) (5626 . 5632) (t 23608 14943 303811 385000) nil (5614 . 5626) ("new_in" . -5614) ((marker . 5959) . -6) 5620 nil (5614 . 5620) nil ("n" . -5614) ((marker . 5959) . -1) ("e" . -5615) ((marker . 5959) . -1) ("w" . -5616) ((marker . 5959) . -1) 5617 nil ("_ntr_lst" . -5617) ((marker . 5959) . -8) 5625 nil (5614 . 5618) nil ("i" . -5614) ((marker . 5959) . -1) 5615 nil (5614 . 5622) ("intr_" . -5614) ((marker . 5959) . -5) 5619 nil (5607 . 5619) nil (" " . -5607) ((marker . 5959) . -1) (" " . -5608) ((marker . 5959) . -1) (" " . -5609) ((marker . 5959) . -1) 5610 nil (" " . -5610) ((marker . 5959) . -1) 5611 nil (5598 . 5611) nil (5581 . 5598) nil (5574 . 5581) nil ("d" . -5574) ((marker . 5959) . -1) ("n" . -5575) ((marker . 5959) . -1) 5576 nil (5571 . 5576) nil ("m" . -5571) ((marker . 5959) . -1) ("e" . -5572) ((marker . 5959) . -1) ("a" . -5573) ((marker . 5959) . -1) ("n" . -5574) ((marker . 5959) . -1) ("d" . -5575) ((marker . 5959) . -1) 5576 nil (5567 . 5576) nil (5552 . 5567) nil (5540 . 5552) ("new" . -5540) ((marker . 5959) . -3) 5543 nil (5540 . 5543) nil (5527 . 5540) nil (5526 . 5527) nil (5518 . 5526) ("intr_l" . -5518) ((marker . 5959) . -6) 5524 nil (5510 . 5524) nil (5506 . 5510) nil (5497 . 5506) nil (5490 . 5497) nil ("o" . -5490) ((marker . 5959) . -1) 5491 nil (5488 . 5491) nil (5480 . 5488) (t 23608 14854 60411 12000) nil (5471 . 5480) (t 23608 14808 276511 24000) nil (5471 . 5480) nil (5470 . 5471) nil (5465 . 5469) nil (5459 . 5466) nil (" " . -5459) 5460 nil (5459 . 5460) nil (" " . -5459) 5460 nil (5441 . 5460) nil (5436 . 5441) (t 23608 14705 795280 393000) nil ("obs_data" . -5624) (5632 . 5636) nil ("obs_data" . -5604) (5612 . 5616) nil ("obs_data" . -5598) (5606 . 5610) nil (nil fontified t 5528 . 5529) (nil face font-lock-comment-face 5528 . 5529) (nil fontified t 5527 . 5528) (nil face font-lock-comment-face 5527 . 5528) (nil fontified t 5526 . 5527) (nil face font-lock-comment-face 5526 . 5527) (nil fontified t 5525 . 5526) (nil face font-lock-comment-face 5525 . 5526) ("obs_data" . -5525) (5533 . 5537) nil (nil fontified t 5501 . 5502) (nil face font-lock-variable-name-face 5501 . 5502) (nil fontified t 5500 . 5501) (nil face font-lock-variable-name-face 5500 . 5501) (nil fontified t 5499 . 5500) (nil face font-lock-variable-name-face 5499 . 5500) (nil fontified t 5498 . 5499) (nil face font-lock-variable-name-face 5498 . 5499) ("obs_data" . -5498) (5506 . 5510) nil ("obs_data" . -4877) (4885 . 4889) nil (nil fontified t 4807 . 4809) ("obs_data" . -4807) (4815 . 4819) nil ("obs_data" . -4737) (4745 . 4749) nil ("obs_data" . -4667) (4675 . 4679) nil ("obs_data" . -4595) (4603 . 4607) nil ("obs_data" . -4521) (4529 . 4533) nil ("obs_data" . -4447) (4455 . 4459) nil ("obs_data" . -4373) (4381 . 4385) nil ("obs_data" . -4314) (t 23608 14455 300222 568000) (4322 . 4326) (t 23608 14455 300222 568000) nil ("  " . -4338) 4332 nil ("        
-" . 4332) nil ("  
-" . 4332) nil ("
-" . 4332) nil ("      # if foot == 'right':" . 4332) nil ("      #     ref = obs_data.touch_r  # 差の基準
-        #     touch_r_next = np.array([])
-        #     for i in range(1, len(ref) - 1):
-        #         touch_r_next = np.hstack((touch_r_next, ref[i+1] - ref[i]))
-        #     touch_l_prev = self.calc_interval(obs_data.touch_l, ref, 'prev')
-        # elif foot == 'left':
-        #     ref = obs_data.touch_l
-        #     touch_r_next = np.array([])
-        #     for i in range(1, len(ref) - 1):
-        #         touch_l_next = np.hstack((touch_l_next, ref[i+1] - ref[i]))
-        #     touch_r_prev = self.calc_interval(obs_data.touch_r, ref, 'prev')
-        
-        # self.touch_r_next = touch_r_next
-        # self.T_ = T_w" . 4362) nil (5039 . 5040) (t 23608 14428 18798 383000) nil ("=" . -6079) 6080 (t 23608 14270 394387 502000) nil (6443 . 6447) nil ("n" . -6443) ("e" . -6444) ("x" . -6445) ("t" . -6446) 6447 (t 23608 14219 441940 732000) nil (6447 . 6453) nil (6435 . 6447) ("touch_r_n" . -6435) 6444 nil (6435 . 6444) nil (6425 . 6435) nil (6420 . 6425) nil (6419 . 6420) nil (6418 . 6419) nil ("              " . -6425) (6418 . 6419) nil (6404 . 6418) nil (6396 . 6404) ("obs" . -6396) 6399 nil (6390 . 6399) nil ("
-" . 6390) nil (6389 . 6390) nil (6388 . 6389) nil (6389 . 6409) nil (")" . 6389) nil ("
-" . 6389) nil (6388 . 6390) (t 23608 14175 416083 381000) nil (6384 . 6388) nil ("h" . -6384) ("c" . -6385) 6386 nil (6381 . 6386) nil ("p" . -6381) ("e" . -6382) ("g" . -6383) 6384 nil (6380 . 6384) nil (6372 . 6380) ("obs" . -6372) 6375 nil (6372 . 6375) nil ("'" . -6372) ("r" . -6373) ("i" . -6374) ("g" . -6375) ("h" . -6376) ("t" . -6377) ("'" . -6378) 6379 (t 23608 14161 237564 871000) nil ("." . -4327) ("x" . -4328) 4329 nil (4324 . 4329) nil ("f" . -4324) ("o" . -4325) ("o" . -4326) ("t" . -4327) 4328 (t 23608 14066 946316 869000) nil (6381 . 6382) nil ("
-" . 6381) nil ("
-" . 6381) nil ("print(obs_data.touch_r[1:10]" . -6382) 6410 (t 23608 14052 939506 600000) nil (6410 . 6411) nil ("
-" . 6410) (t 23608 14000 320491 81000) nil ("
-" . 6411) (t 23608 13990 604157 93000) nil ("print(interval.touch_r_next[:10])" . -6411) 6444 (t 23608 13963 712868 163000) nil (6438 . 6444) nil (6426 . 6438) ("touch_r" . -6426) 6433 nil (6432 . 6433) nil (6411 . 6432) nil ("print(interval.touch_r" . -6411) 6433 nil ("_next[:10])" . 6433) (t 23608 13935 533750 378000) nil (6396 . 6404) (t 23608 13887 481113 977000) nil (6396 . 6402) nil (6388 . 6396) ("obs_" . -6388) 6392 nil (6389 . 6392) nil ("s" . -6389) 6390 nil (6388 . 6390) nil (6416 . 6421) nil ("i" . -6388) 6389 nil ("nterval." . -6389) 6397 nil (6396 . 6397) nil (6388 . 6396) ("inter" . -6388) 6393 nil (6382 . 6393) nil (6381 . 6382) nil ("
-" . 6382) nil (6381 . 6382) (t 23608 13861 557658 975000) nil (6405 . 6410) nil (6403 . 6405) nil (6382 . 6403) nil ("print(interval.T)" . -6382) 6399 (t 23608 13827 848690 823000) nil (5346 . 5347) nil ("r" . -5346) 5347 nil (5268 . 5269) nil ("r" . -5268) 5269 nil (5303 . 5304) nil ("r" . -5303) 5304 nil (5225 . 5226) nil ("r" . -5225) 5226 nil (nil rear-nonsticky nil 5360 . 5361) (nil fontified nil 5360 . 5361) (nil fontified nil 5359 . 5360) (nil fontified nil 5355 . 5359) (nil fontified nil 5354 . 5355) (nil fontified nil 5331 . 5354) (nil fontified nil 5317 . 5331) (nil fontified nil 5316 . 5317) (nil fontified nil 5312 . 5316) (nil fontified nil 5296 . 5312) (nil fontified nil 5292 . 5296) (nil fontified nil 5284 . 5292) (nil fontified nil 5282 . 5284) (nil fontified nil 5281 . 5282) (nil fontified nil 5277 . 5281) (nil fontified nil 5276 . 5277) (nil fontified nil 5253 . 5276) (nil fontified nil 5239 . 5253) (nil fontified nil 5238 . 5239) (nil fontified nil 5234 . 5238) (nil fontified nil 5218 . 5234) (nil fontified nil 5214 . 5218) (5214 . 5361) nil (5205 . 5214) nil (5204 . 5205) nil (5183 . 5204) nil (5175 . 5183) ("obs_" . -5175) 5179 nil (5174 . 5179) nil (5161 . 5174) ("calc_in" . -5161) 5168 nil (5160 . 5168) nil (5156 . 5160) ("sel" . -5156) 5159 nil (5140 . 5159) nil (5136 . 5140) ("sel" . -5136) 5139 nil (5136 . 5139) nil (5127 . 5136) nil (5106 . 5127) nil ("p" . -5106) ("e" . -5107) ("g" . -5108) ("_" . -5109) 5110 nil (5109 . 5110) nil (5105 . 5109) nil (5097 . 5105) ("obs_da" . -5097) 5103 nil (5096 . 5103) nil (5083 . 5096) ("calc_in" . -5083) 5090 nil (5078 . 5090) nil (5063 . 5078) nil ("p" . -5063) 5064 nil (5058 . 5064) nil (5050 . 5058) nil (5040 . 5049) nil ("
-" . 4975) nil (5027 . 5029) (4984 . 4986) 5037 nil (4965 . 4974) nil ("        " . 4339) (4903 . 4905) (4825 . 4827) (4778 . 4780) (4736 . 4738) (4699 . 4701) (4668 . 4670) (4589 . 4591) (4511 . 4513) (4464 . 4466) (4422 . 4424) (4377 . 4379) (4339 . 4349) 4941 (t 23608 13676 945660 291000) nil (4926 . 4927) nil ("l" . -4926) 4927 (t 23608 13669 388717 954000) nil (4926 . 4927) nil ("r" . -4926) 4927 (t 23608 13661 588356 45000) nil (4877 . 4889) nil ("T" . -4877) ("_" . -4878) 4879 (t 23608 13655 238561 69000) nil (4837 . 4838) nil ("r" . -4837) 4838 (t 23608 13643 367354 647000) nil (4811 . 4812) nil ("r" . -4811) ("h" . -4812) 4813 nil (4812 . 4813) (t 23608 13603 651772 460000) nil (4716 . 4728) ("touch_r_" . -4716) 4724 nil (4716 . 4724) nil ("T" . -4716) 4717 (t 23608 13566 847874 135000) nil (4575 . 4587) nil ("T" . -4575) ("_" . -4576) 4577 (t 23608 13552 893263 885000) nil (4575 . 4576) nil ("t" . -4575) ("o" . -4576) ("u" . -4577) ("c" . -4578) 4579 nil ("h_r_next" . -4579) 4587 nil ("T" . -4951) (4952 . 4964) nil ("T" . -4936) (4937 . 4949) nil ("T" . -4821) (4822 . 4834) nil (nil fontified t 4806 . 4807) (nil face font-lock-variable-name-face 4806 . 4807) ("T" . -4795) (4796 . 4808) nil ("T" . -4575) (4576 . 4588) nil ("T" . -4529) (4530 . 4542) nil (nil fontified t 4514 . 4515) (nil face font-lock-variable-name-face 4514 . 4515) ("T" . -4503) (4504 . 4516) nil ("            T = np.array([])" . 4441) nil ("
-" . 4441) nil (4437 . 4441) nil ("8" . -4437) 4438 nil (4426 . 4438) nil (4414 . 4426) nil ("o" . -4414) 4415 nil (4414 . 4415) nil (4401 . 4414) (t 23608 13464 476709 519000) nil (5176 . 5177) nil (5174 . 5176) nil ("t" . -5174) ("o" . -5175) ("u" . -5176) 5177 nil ("h" . 5177) ("c" . 5177) nil (5100 . 5103) nil ("h" . 5100) nil ("t" . -5100) ("o" . -5101) ("u" . -5102) ("c" . -5103) 5104 nil (5026 . 5029) nil ("t" . -5026) ("o" . -5027) ("u" . -5028) ("c" . -5029) ("h" . -5030) 5031 nil (4952 . 4955) nil ("t" . -4952) ("h" . -4953) 4954 nil (4953 . 4954) nil ("o" . -4953) ("u" . -4954) ("c" . -4955) ("h" . -4956) 4957 (t 23608 12901 747515 711000) nil (5917 . 5924) nil ("o" . -5917) ("b" . -5918) ("s" . -5919) ("_" . -5920) ("d" . -5921) ("a" . -5922) ("t" . -5923) ("a" . -5924) 5925 nil (".touch_r" . -5925) 5933 (t 23608 12847 844481 295000) nil (5949 . 5952) nil (5941 . 5949) ("inter" . -5941) 5946 nil (5935 . 5946) (t 23608 12832 830609 681000) nil ("print(interval.peg_r_prev)" . -5935) 5961 (t 23608 12828 98252 775000) nil ("
-" . 5720) (t 23608 12804 580889 308000) nil (5709 . 5720) nil (" " . -5709) (" " . -5710) (" " . -5711) (" " . -5712) (" " . -5713) (" " . -5714) (" " . -5715) (" " . -5716) 5717 nil (5700 . 5717) nil (5520 . 5522) nil (5698 . 5715) nil (5660 . 5661) nil (5691 . 5697) nil (5690 . 5691) nil (5675 . 5676) nil ("(" . -5675) 5676 nil (5688 . 5690) nil (5685 . 5688) nil ("}" . -5685) ("[" . -5686) 5687 nil (5683 . 5687) nil (5676 . 5683) ("indi" . -5676) 5680 nil (5678 . 5680) nil ("t" . -5678) 5679 nil (5675 . 5679) nil (5666 . 5675) ("time" . -5666) 5670 nil (5659 . 5670) nil (5653 . 5659) ("hs" . -5653) 5655 nil (5643 . 5655) nil (5626 . 5643) nil (5625 . 5626) nil (5620 . 5625) nil (5611 . 5620) ("time" . -5611) 5615 nil (5611 . 5615) nil ("i" . -5611) ("t" . -5612) ("e" . -5613) 5614 nil (5610 . 5614) nil (5605 . 5610) ("wh" . -5605) 5607 nil (5605 . 5607) nil ("h" . -5605) 5606 nil (5599 . 5606) nil (5592 . 5599) ("indi" . -5592) 5596 nil (5595 . 5596) nil (5592 . 5595) nil (5575 . 5592) nil (5570 . 5575) nil ("]" . -5570) ("-" . -5571) 5572 nil (5560 . 5572) nil (5556 . 5560) nil (5543 . 5556) nil (5542 . 5543) nil ("(" . -5542) 5543 nil (5532 . 5543) nil (5523 . 5532) ("time" . -5523) 5527 nil (5520 . 5527) nil (5512 . 5520) nil ("        " . -5515) 5523 nil (5515 . 5523) ("        " . 5514) (5514 . 5523) ("        " . 5513) (5512 . 5522) nil ("    
-" . 5512) nil ("
-" . 5512) nil ("elif time_axis == 'prev':" . 5512) nil ("
-                                                             
-
-
-class Interval:
-    def __init__(self, obs_data, ref):
-        self.peg_r_next, self.peg_l_next, self.touch_r_next, self.touch_l_next = self.calc_interval(
-            obs_data, ref, 'next')
-        self.peg_r_prev, self.peg_l_prev, self.touch_r_prev, self.touch_l_prev = self.calc_interval(
-            obs_data, ref, 'prev')
-
-    def calc_interval(self, obs_data, ref, time_axis):
-        interval_lst = []
-        for timestamp in [
-                obs_data.peg_r, obs_data.peg_l, obs_data.touch_r,
-                obs_data.touch_l
-        ]:
-            diff = np.array([])
-            # next
-            if time_axis == 'next':
-                for t in ref[1:-1]:
-                    indices = np.where(timestamp <= t)
-                    diff = np.hstack((diff, timestamp[indices[0][-1] + 1] - t))
-            #previous
-            elif time_axis == 'prev':
-                for t in ref[1:-1]:
-                    indices = np.where(timestamp <= t)
-                    diff = np.hstack((diff, timestamp[indices[0][-1]] - t))
-
-            interval_lst.append(diff)
-
-        return interval_lst
-
-" . 5542) 6707 nil (5536 . 5537) nil (":" . -5536) 5537 nil ("    " . -5542) ("        " . -5512) (5544 . 5545) nil ("p" . -5553) 5554 nil (5553 . 5554) nil (5544 . 5553) nil (5508 . 5511) nil (5501 . 5508) nil ("        " . -5501) 5509 nil (5492 . 5509) nil (5515 . 5525) nil (5506 . 5515) ("time" . -5506) 5510 nil (5505 . 5510) nil (":" . -5505) 5506 nil (5501 . 5506) nil ("        " . -5501) 5509 nil (5492 . 5509) nil (5489 . 5492) nil (5478 . 5489) nil ("^" . -5478) ("
-" . -5479) 5480 nil (5479 . 5480) nil ("1" . -5479) 5480 nil (5480 . 5542) nil (5474 . 5480) nil (5467 . 5474) ("indi" . -5467) 5471 nil (5466 . 5471) nil ("[" . -5466) 5467 nil (5466 . 5467) nil (5457 . 5466) ("tim" . -5457) 5460 nil (5451 . 5460) nil (5449 . 5451) nil (5443 . 5449) ("hs" . -5443) 5445 nil (5433 . 5445) nil (5416 . 5433) nil (5411 . 5416) nil (5410 . 5411) nil (5401 . 5410) ("time" . -5401) 5405 nil (5402 . 5405) nil ("r" . -5402) ("i" . -5403) ("e" . -5404) 5405 nil (5400 . 5405) nil (5395 . 5400) ("wh" . -5395) 5397 nil (5389 . 5397) nil (5382 . 5389) ("indi" . -5382) 5386 nil (5382 . 5386) nil (5365 . 5382) nil (5364 . 5365) nil (5346 . 5364) nil (5333 . 5346) nil (5330 . 5333) nil (5324 . 5330) nil (" " . -5324) 5325 nil (5322 . 5325) nil (5313 . 5322) ("time" . -5313) 5317 nil (5310 . 5317) nil (5302 . 5310) ("    " . 5302) 5306 nil ("    if time_axis == 'next':
+((digest . "fddea5b8d21220e5a090e327462f7080") (undo-list nil (9693 . 9698) nil ("o" . -9693) ((marker . 9699) . -1) ("b" . -9694) ((marker . 9699) . -1) ("j" . -9695) ((marker . 9699) . -1) ("v" . -9696) ((marker . 9699) . -1) ("a" . -9697) ((marker . 9699) . -1) ("r" . -9698) ((marker . 9699) . -1) 9699 nil (9601 . 9606) nil ("o" . -9601) ((marker . 9699) . -1) ((marker . 9601) . -1) ("b" . -9602) ((marker . 9699) . -1) ((marker . 9601) . -1) ("j" . -9603) ((marker . 9699) . -1) ((marker . 9601) . -1) ("v" . -9604) ((marker . 9699) . -1) ((marker . 9601) . -1) ("a" . -9605) ((marker . 9699) . -1) ((marker . 9601) . -1) ("r" . -9606) ((marker . 9699) . -1) ((marker . 9601) . -1) 9607 nil ("        " . -9558) ((marker . 9558) . -8) 9568 nil (nil fontified nil 9784 . 9785) (nil fontified nil 9767 . 9784) (nil fontified nil 9743 . 9767) (nil fontified nil 9740 . 9743) (nil fontified nil 9734 . 9740) (nil fontified nil 9724 . 9734) (nil fontified nil 9718 . 9724) (nil fontified nil 9717 . 9718) (nil fontified nil 9716 . 9717) (nil fontified nil 9687 . 9716) (nil fontified nil 9686 . 9687) (nil fontified nil 9674 . 9686) (nil fontified nil 9672 . 9674) (nil fontified nil 9664 . 9672) (nil fontified nil 9660 . 9664) (nil fontified nil 9658 . 9660) (nil fontified nil 9650 . 9658) (nil fontified nil 9647 . 9650) (nil fontified nil 9641 . 9647) (nil fontified nil 9631 . 9641) (nil fontified nil 9625 . 9631) (nil fontified nil 9624 . 9625) (nil fontified nil 9623 . 9624) (nil fontified nil 9594 . 9623) (nil fontified nil 9593 . 9594) (nil fontified nil 9581 . 9593) (nil fontified nil 9573 . 9581) (nil fontified nil 9572 . 9573) (nil fontified nil 9568 . 9572) (nil fontified nil 9566 . 9568) (nil fontified nil 9558 . 9566) (9558 . 9785) nil (9549 . 9558) (t 23612 17915 246435 371000) nil (8740 . 8746) ("ta" . -8740) ((marker . 9699) . -2) 8742 nil (8738 . 8742) nil (8711 . 8718) nil (8707 . 8711) nil ("_timings" . -8707) ((marker . 9699) . -8) 8715 nil (8647 . 8653) ("tar" . -8647) ((marker . 9699) . -3) 8650 nil (8645 . 8650) nil (" " . -8645) ((marker . 9699) . -1) 8646 nil (8645 . 8646) nil (8615 . 8625) nil ("t" . -8615) ((marker . 9699) . -1) ("i" . -8616) ((marker . 9699) . -1) ("m" . -8617) ((marker . 9699) . -1) ("i" . -8618) ((marker . 9699) . -1) ("n" . -8619) ((marker . 9699) . -1) ("g" . -8620) ((marker . 9699) . -1) ("s" . -8621) ((marker . 9699) . -1) 8622 nil (8575 . 8578) nil ("v" . -8575) ((marker . 9699) . -1) 8576 nil (8572 . 8576) nil (8563 . 8572) nil ("        " . -8572) 8582 nil (nil rear-nonsticky nil 8761 . 8762) (nil fontified nil 8744 . 8762) (nil fontified nil 8720 . 8744) (nil fontified nil 8709 . 8720) (nil fontified nil 8703 . 8709) (nil fontified nil 8702 . 8703) (nil fontified nil 8701 . 8702) (nil fontified nil 8675 . 8701) (nil fontified nil 8674 . 8675) (nil fontified nil 8662 . 8674) (nil fontified nil 8660 . 8662) (nil fontified nil 8652 . 8660) (nil fontified nil 8648 . 8652) (nil fontified nil 8646 . 8648) (nil fontified nil 8638 . 8646) (nil fontified nil 8627 . 8638) (nil fontified nil 8621 . 8627) (nil fontified nil 8620 . 8621) (nil fontified nil 8619 . 8620) (nil fontified nil 8593 . 8619) (nil fontified nil 8592 . 8593) (nil fontified nil 8572 . 8592) (8572 . 8762) nil (8563 . 8572) (t 23612 17864 941933 162000) nil (8005 . 8013) nil (7976 . 7985) nil ("t" . -7976) ((marker . 9699) . -1) ("i" . -7977) ((marker . 9699) . -1) 7978 nil ("m" . -7978) ((marker . 9699) . -1) ("i" . -7979) ((marker . 9699) . -1) ("n" . -7980) ((marker . 9699) . -1) ("g" . -7981) ((marker . 9699) . -1) ("s" . -7982) ((marker . 9699) . -1) 7983 nil (7913 . 7921) nil (7891 . 7893) nil ("2" . -7891) ((marker . 9699) . -1) 7892 nil (7884 . 7892) nil ("t" . -7884) ((marker . 9699) . -1) ("i" . -7885) ((marker . 9699) . -1) ("m" . -7886) ((marker . 9699) . -1) ("i" . -7887) ((marker . 9699) . -1) ("n" . -7888) ((marker . 9699) . -1) ("g" . -7889) ((marker . 9699) . -1) ("s" . -7890) ((marker . 9699) . -1) 7891 nil (" " . -7847) ((marker . 9699) . -1) 7848 nil (7841 . 7848) nil (7832 . 7841) nil ("        " . -7841) 7851 nil (nil rear-nonsticky nil 8030 . 8031) (nil fontified nil 8013 . 8031) (nil fontified nil 7989 . 8013) (nil fontified nil 7978 . 7989) (nil fontified nil 7972 . 7978) (nil fontified nil 7971 . 7972) (nil fontified nil 7970 . 7971) (nil fontified nil 7944 . 7970) (nil fontified nil 7943 . 7944) (nil fontified nil 7931 . 7943) (nil fontified nil 7929 . 7931) (nil fontified nil 7921 . 7929) (nil fontified nil 7917 . 7921) (nil fontified nil 7915 . 7917) (nil fontified nil 7907 . 7915) (nil fontified nil 7896 . 7907) (nil fontified nil 7890 . 7896) (nil fontified nil 7889 . 7890) (nil fontified nil 7888 . 7889) (nil fontified nil 7862 . 7888) (nil fontified nil 7861 . 7862) (nil fontified nil 7841 . 7861) (7841 . 8031) nil (7832 . 7841) (t 23612 17775 52552 923000) nil (7851 . 7860) nil ("
+    def plot_touch_timings(self, ref, ref_pred, peg, xlim=[5000, 130000]):
+        switch = self.switching_timings(data)
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5))
+        ax.plot(ref, np.ones(len(ref)), color='cornflowerblue', marker='.', linestyle='None', label='observed')
+        ax.plot(ref_pred, np.zeros(len(ref_pred)), color='orange', marker='.', linestyle='None', label='predicted')
+        ax.plot(peg, -1 * np.ones(len(peg)), color='black', marker='.', linestyle='None', label='peg ({0})'.format(target))
+        for i in range(len(switch)):
+            if i % 2 == 1 and i < len(switch) - 1:
+                ax.axvspan(switch[i], switch[i+1], color='gray', alpha=0.1)
+        ax.set_yticks([-1, 0, 1])
+        ax.set_yticklabels(['peg ({0})'.format(target), 'predicted', 'observed'])
+        ax.set_ylim(-2, 2)
+        ax.set_xlim(xlim[0], xlim[1])
+        ax.legend(loc='upper right')
+        plt.show()
+" . 7851) ((marker . 9655) . -928) ((marker . 8077) . -5) ((marker . 3539) . -22) ((marker . 9699) . -928) ((marker) . -928) 8779 nil (nil rear-nonsticky nil 7850 . 7851) (nil fontified nil 6862 . 7851) (6862 . 7851) nil (6857 . 6862) (t 23612 17581 145775 231000) nil (6853 . 6857) ("プロット" . -6853) ((marker . 9699) . -4) (6853 . 6857) ("プロッt" . -6853) ((marker . 9699) . -4) (6853 . 6857) ("プロt" . -6853) ((marker . 9699) . -3) (6853 . 6856) ("プロ" . -6853) ((marker . 9699) . -2) (6853 . 6855) ("ぷr" . -6853) ((marker . 9699) . -2) (6853 . 6855) ("ぷ" . -6853) ((marker . 9699) . -1) (6853 . 6854) ("p" . -6853) ((marker . 9699) . -1) (6852 . 6854) nil ("を" . -6852) ((marker . 9699) . -1) (6852 . 6853) ("w" . -6852) ((marker . 9699) . -1) (6852 . 6853) ("w" . -6852) ((marker . 9699) . -1) 6853 nil (6849 . 6853) ("予測値w" . -6849) ((marker . 9699) . -4) (6849 . 6853) ("予測値" . -6849) ((marker . 9699) . -3) (6849 . 6852) ("予測t" . -6849) ((marker . 9699) . -3) (6849 . 6852) ("予測" . -6849) ((marker . 9699) . -2) (6849 . 6851) ("よそk" . -6849) ((marker . 9699) . -3) (6849 . 6852) ("よそ" . -6849) ((marker . 9699) . -2) (6849 . 6851) ("よs" . -6849) ((marker . 9699) . -2) (6849 . 6851) ("よs" . -6849) (6849 . 6851) ("y" . -6849) ((marker . 9699) . -1) (6849 . 6850) ("よ" . -6849) ((marker . 9699) . -1) (6849 . 6850) ("よお" . -6849) ((marker . 9699) . -2) (6849 . 6851) ("よおs" . -6849) ((marker . 9699) . -3) (6849 . 6852) ("よおsく" . -6849) ((marker . 9699) . -4) (6849 . 6853) ("よおsk" . -6849) ((marker . 9699) . -4) (6849 . 6853) ("よおs" . -6849) ((marker . 9699) . -3) (6849 . 6852) ("よおs" . -6849) (6849 . 6852) ("よ" . -6849) ((marker . 9699) . -1) (6849 . 6850) ("y" . -6849) ((marker . 9699) . -1) (6845 . 6850) ("観測値と" . -6845) ((marker . 9699) . -4) (6845 . 6849) ("観測値t" . -6845) ((marker . 9699) . -4) (6845 . 6849) ("観測値" . -6845) ((marker . 9699) . -3) (6845 . 6848) ("観測t" . -6845) ((marker . 9699) . -3) (6845 . 6848) ("観測" . -6845) ((marker . 9699) . -2) (6845 . 6847) ("かんそk" . -6845) ((marker . 9699) . -4) (6845 . 6849) ("かんそ" . -6845) ((marker . 9699) . -3) (6845 . 6848) ("かんs" . -6845) ((marker . 9699) . -3) (6845 . 6848) ("かn" . -6845) ((marker . 9699) . -2) (6845 . 6847) ("か" . -6845) ((marker . 9699) . -1) (6845 . 6846) ("k" . -6845) ((marker . 9699) . -1) (6836 . 6846) ("タッチタイミングの" . -6836) ((marker . 9699) . -9) (6836 . 6845) ("タッチタイミングn" . -6836) ((marker . 9699) . -9) (6836 . 6845) ("タッチタイミング" . -6836) ((marker . 9699) . -8) (6836 . 6844) ("タッチタイミンg" . -6836) ((marker . 9699) . -8) (6836 . 6844) ("タッチタイミン" . -6836) ((marker . 9699) . -7) (6836 . 6843) ("タッチタイミn" . -6836) ((marker . 9699) . -7) (6836 . 6843) ("タッチタイミ" . -6836) ((marker . 9699) . -6) (6836 . 6842) ("タッチたいm" . -6836) ((marker . 9699) . -6) (6836 . 6842) ("タッチたい" . -6836) ((marker . 9699) . -5) (6836 . 6841) ("タッチたいm" . -6836) ((marker . 9699) . -6) (6836 . 6842) ("タッチ対mき" . -6836) ((marker . 9699) . -6) (6836 . 6842) ("タッチ対mきん" . -6836) ((marker . 9699) . -7) (6836 . 6843) ("タッチ対mきんぐ" . -6836) ((marker . 9699) . -8) (6836 . 6844) ("タッチ対mきんg" . -6836) ((marker . 9699) . -8) (6836 . 6844) ("タッチ対mきん" . -6836) ((marker . 9699) . -7) (6836 . 6843) ("タッチ対mきn" . -6836) ((marker . 9699) . -7) (6836 . 6843) ("タッチ対mき" . -6836) ((marker . 9699) . -6) (6836 . 6842) ("タッチたいmk" . -6836) ((marker . 9699) . -7) (6836 . 6843) ("タッチたいmk" . -6836) (6836 . 6843) ("タッチたい" . -6836) ((marker . 9699) . -5) 6841 nil (6836 . 6841) ("タッチた" . -6836) ((marker . 9699) . -4) (6836 . 6840) ("タッチt" . -6836) ((marker . 9699) . -4) (6836 . 6840) ("タッチ" . -6836) ((marker . 9699) . -3) (6836 . 6839) ("タッt" . -6836) ((marker . 9699) . -3) (6836 . 6839) ("たt" . -6836) ((marker . 9699) . -2) (6836 . 6838) ("た" . -6836) ((marker . 9699) . -1) (6836 . 6837) ("t" . -6836) ((marker . 9699) . -1) (6834 . 6837) nil (6829 . 6834) nil (nil rear-nonsticky nil 7755 . 7756) (nil fontified nil 6834 . 7756) (6834 . 7756) nil (6830 . 6834) ("    " . 6829) ((marker . 9699) . -4) (6828 . 6834) (t 23612 14425 784572 612000) nil (6363 . 6368) (t 23612 14418 9182 370000) nil (8927 . 8932) nil (5679 . 5691) ("is_normali" . -5679) ((marker . 9699) . -10) 5689 nil (5686 . 5689) nil (5715 . 5717) nil ("e" . -5715) ((marker . 9699) . -1) 5716 nil (5715 . 5716) nil ("e" . -5715) ((marker . 9699) . -1) 5716 nil (5712 . 5716) (t 23612 14135 716976 465000) nil (4939 . 9090) ("
+    def calc_interval(self, timestamp, ref, time_axis):
+        intr = np.array([])
+        # next
+        if time_axis == 'next':
             for t in ref[1:-1]:
                 indices = np.where(timestamp <= t)
-                intr = np.hstack((intr, timestamp[indices[0][-1] + 1] - t))                
+                intr = np.hstack((intr, timestamp[indices[0][-1] + 1] - t))
         # previous
-elif time_axis == 'prev':
-    " . 5306) 5558 nil (5553 . 5558) nil ("        " . -5528) (5555 . 5561) nil (5324 . 5325) nil (5549 . 5554) nil (5540 . 5549) ("time" . -5540) 5544 nil (5535 . 5544) nil (5527 . 5535) ("    " . 5527) (5526 . 5527) nil ("
-" . -5526) ("e" . -5527) ("l" . -5528) ("i" . -5529) ("f" . -5530) (" " . -5531) 5532 nil ("
-" . 5532) nil (5531 . 5532) nil (":" . -5531) 5532 nil ("        " . -5527) (5535 . 5540) nil (5527 . 5535) nil ("elif time_axis = 'prev':" . -5527) 5551 nil ("
-" . 5491) nil (5491 . 5508) nil (5535 . 5540) nil ("        " . -5511) (5542 . 5543) nil (5534 . 5542) nil ("0" . -5534) (" " . -5535) 5536 nil (5533 . 5536) nil (5524 . 5533) ("time" . -5524) 5528 nil (5524 . 5528) nil (5523 . 5524) nil (5507 . 5510) nil (5503 . 5507) nil ("e" . -5503) 5504 nil (5500 . 5504) nil ("        " . -5500) 5508 nil (5491 . 5508) nil undo-tree-canary))
+        elif time_axis == 'prev':
+            for t in ref[1:-1]:
+                indices = np.where(timestamp < t)
+                intr = np.hstack((intr, timestamp[indices[0][-1]] - t))
+        return intr
+    
+    def set_var(self, obj_var, obj_name, exp_var, exp_name):
+        self.obj_var = obj_var
+        self.exp_var = exp_var
+        self.obj_name = obj_name
+        self.exp_name = exp_name
+        
+    def linear_regression(self, is_norm=True):
+        if is_norm:
+            x = normalize(*self.exp_var)
+            y = normalize(obj_var)
+        else:
+            x = self.exp_var
+            y = self.obj_var
+            
+        x_name = self.exp_name
+        y_name = self.obj_name
+        df_y = pd.DataFrame({y_name: y})        
+        df_x = {}
+        for i in range(len(x_name)):
+            df_x[x_name[i]] = x[i]
+        df_x = pd.DataFrame(df_x)
+        X = df_x.values
+        Y = df_y.values
+        model = linear_model.LinearRegression()
+        model.fit(X, Y)
+        mse = mean_squared_error(Y, model.predict(X))
+        predicted_Y = model.predict(X)
+        # 標準化して推定した結果を元のスケールに戻す
+        if is_norm:
+            predicted_Y = predicted_Y * np.std(self.obj_var) + np.mean(self.obj_var)
+        self.obj_var_pred = predicted_Y.flatten()
+        
+        return model, mse
+    
+    # 変数の標準化    
+    def normalize(*x):
+        if len(x) == 1:
+            return (x[0] - np.mean(x[0])) / np.std(x[0])                
+        else:            
+            new_x = []
+            for i in range(len(x)):
+                new_x.append((x[i] - np.mean(x[i])) / np.std(x[i]))
+        return new_x
+    
+    # 目的変数の観測値と予測値をプロット
+    def plot_obj_var(self, ref):
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5))
+        ax.plot(ref[1:-1], self.obj_var, color='cornflowerblue', label='observed')
+        ax.plot(ref[1:-1], self.obj_var_pred, color='orange', label='predicted')
+        ax.set_title('Intervals of {0}'.format(self.obj_name))
+        ax.set_ylabel('Intervals of {0}'.format(self.obj_name))
+        ax.set_xlabel('time')
+        ax.legend()
+        plt.show()
+        
+    def plot_error(self, data, ref):
+        # ペグパターン切り替えタイミングを計算
+        period = 11
+        idx1, idx2 = 3, 7  # 切り替わるタイミングのインデックス（それぞれの系列における最初の値）
+        switch = np.hstack((data.peg_l[idx1::period], data.peg_l[idx2::period]))
+        switch = np.sort(switch)
+        
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5))
+        ax.plot(ref[1:-1], self.obj_var_pred - self.obj_var, label='error')      
+        for i in range(len(switch)):
+            if i % 2 == 1 and i < len(switch) - 1:
+                ax.axvspan(switch[i], switch[i+1], color='gray', alpha=0.1)
+        ax.set_xlabel('time')
+        ax.set_ylabel('predicted obj_var - obj_var')
+        ax.set_title('Error')
+        ax.legend(loc='upper right')
+        plt.show()        
+
+
+project = 'mouse'        
+datafile = 'mouse_data.csv'
+unit_num = 18
+data = ObsData(datafile)
+# data.plot_timestamps()
+
+target = 'left'
+
+if target == 'right':
+    ref = data.touch_r
+    interval = Interval(data, ref)
+    obj_var = interval.touch_r_next  # 目的変数
+    obj_name = \"touch right (next)\"
+elif target == 'left':
+    ref = data.touch_l
+    interval = Interval(data, ref)
+    obj_var = interval.touch_l_next
+    obj_name = \"touch left (next)\"
+
+exp_var = [interval.touch_l_prev, interval.touch_r_prev, interval.peg_r_next, interval.peg_r_prev, interval.peg_l_next, interval.peg_l_prev]  # 説明変数
+exp_name = [\"touch left (prev)\", \"touch right (prev)\", \"peg right (next)\", \"peg right (prev)\", \"peg left (next)\", \"peg left (prev)\"]
+interval.set_var(obj_var, obj_name, exp_var, exp_name)
+
+model, mse = interval.linear_regression(is_norm=False)
+
+print(mse)
+interval.plot_obj_var(ref)
+interval.plot_error(data, ref)
+coef = pd.DataFrame({'explanatory variables':exp_name, 'coefficient': model.coef_[0]" . 4939) ((marker . 9558) . -3168) ((marker . 4939) . -3168) ((marker . 4939) . -3168) ((marker . 4939) . -3168) ((marker . 4939) . -3168) ((marker . 9655) . -2915) ((marker . 9733) . -2991) ((marker . 4939) . -3168) ((marker . 7833) . -2915) ((marker . 3539) . -3168) ((marker . 9699) . -2915) 7803 (t 23612 8920 947069 539000) nil ("
+
+class Interval:
+    # ref: インターバルをとる際の基準となるタイムスタンプ
+    def __init__(self, data, ref):
+        self.touch_r_next = self.calc_interval(data.touch_r, ref, 'next')
+        self.touch_r_prev = self.calc_interval(data.touch_r, ref, 'prev')
+        self.touch_l_next = self.calc_interval(data.touch_l, ref, 'next')
+        self.touch_l_prev = self.calc_interval(data.touch_l, ref, 'prev')
+        self.peg_r_next = self.calc_interval(data.peg_r, ref, 'next')
+        self.peg_r_prev = self.calc_interval(data.peg_r, ref, 'prev')
+        self.peg_l_next = self.calc_interval(data.peg_l, ref, 'next')
+        self.peg_l_prev = self.calc_interval(data.peg_l, ref, 'prev')
+
+    def calc_interval(self, timestamp, ref, time_axis):
+        intr = np.array([])
+        # next
+        if time_axis == 'next':
+            for t in ref[1:-1]:
+                indices = np.where(timestamp <= t)
+                intr = np.hstack((intr, timestamp[indices[0][-1] + 1] - t))
+        # previous
+        elif time_axis == 'prev':
+            for t in ref[1:-1]:
+                indices = np.where(timestamp < t)
+                intr = np.hstack((intr, timestamp[indices[0][-1]] - t))
+        return intr
+
+    def set_var(self, obj_var, obj_name, exp_var, exp_name):
+        self.obj_var = obj_var
+        self.exp_var = exp_var
+        self.obj_name = obj_name
+        self.exp_name = exp_name
+
+    def linear_regression(self, is_norm=True):
+        if is_norm:
+            x = normalize(*self.exp_var)
+            y = normalize(obj_var)
+        else:
+            x = self.exp_var
+            y = self.obj_var
+            
+        x_name = self.exp_name
+        y_name = self.obj_name
+        df_y = pd.DataFrame({y_name: y})        
+        df_x = {}
+        for i in range(len(x_name)):
+            df_x[x_name[i]] = x[i]
+        df_x = pd.DataFrame(df_x)
+        X = df_x.values
+        Y = df_y.values
+        model = linear_model.LinearRegression()
+        model.fit(X, Y)
+        mse = mean_squared_error(Y, model.predict(X))
+        predicted_Y = model.predict(X)
+        # 標準化して推定した結果を元のスケールに戻す
+        if is_norm:
+            predicted_Y = predicted_Y * np.std(self.obj_var) + np.mean(self.obj_var)
+        self.obj_var_pred = predicted_Y.flatten()
+        
+        return model, mse
+    
+    # 変数の標準化    
+    def normalize(*x):
+        if len(x) == 1:
+            return (x[0] - np.mean(x[0])) / np.std(x[0])                
+        else:            
+            new_x = []
+            for i in range(len(x)):
+                new_x.append((x[i] - np.mean(x[i])) / np.std(x[i]))
+        return new_x
+
+    # 目的変数の観測値と予測値をプロット
+    def plot_obj_var(self, ref):
+        fig, ax = plt.subplots(1, 1, figsize=(6, 3))
+        ax.plot(ref[1:-1], self.obj_var, color='cornflowerblue', label='observed')
+        ax.plot(ref[1:-1], self.obj_var_pred, color='orange', label='predicted')
+        ax.set_title('{0}'.format(self.obj_name))
+        ax.set_ylabel('{0}'.format(self.obj_name))
+        ax.set_xlabel('time')
+        ax.legend()
+        plt.show()
+
+    def plot_error(self, data, ref):
+        # ペグパターン切り替えタイミングを計算
+        period = 11
+        idx1, idx2 = 3, 7  # 切り替わるタイミングのインデックス（それぞれの系列における最初の値）
+        switch = np.hstack((data.peg_l[idx1::period], data.peg_l[idx2::period]))
+        switch = np.sort(switch)
+        
+        fig, ax = plt.subplots(1, 1, figsize=(6, 3))
+        ax.plot(ref[1:-1], self.obj_var_pred - self.obj_var, label='error')
+        ax.plot(self.obj_var, -700 * np.ones(len(self.obj_var)), label='{0}'.format(self.obj_name), marker='.', linestyle='None', color='cornflowerblue')
+        ax.plot(self.obj_var_pred, -800 * np.ones(len(self.obj_var_pred)), label='{0}, predicted'.format(self.obj_name), marker='.', linestyle='None', color='orange')
+        ax.plot(data.peg_l, -900 * np.ones(len(data.peg_l)), label='peg left', marker='.', linestyle='None', color='black')
+        for i in range(len(switch)):
+            if i % 2 == 1 and i < len(switch) - 1:
+                ax.axvspan(switch[i], switch[i+1], color='gray', alpha=0.1)
+        ax.set_xlabel('time')
+        ax.set_ylabel('predicted obj_var - obj_var')
+        ax.legend(loc='upper right')
+        plt.show()
+" . 8107) ((marker . 4939) . -3031) ((marker . 4939) . -3031) ((marker . 4939) . -1371) ((marker . 4939) . -3146) ((marker . 9655) . -4183) ((marker . 4939) . -3778) ((marker . 7833) . -4127) ((marker . 3539) . -67) ((marker . 9699) . -4183) ((marker) . -4183) 12290 nil (nil rear-nonsticky nil 8097 . 8098) (nil fontified nil 4275 . 8098) (4275 . 8098) nil (4275 . 4283) ("        " . 4274) ((marker . 9699) . -8) (4274 . 4283) ("        " . 4273) ((marker . 9699) . -8) (4272 . 4282) (t 23612 8857 897489 209000) nil ("        
+        
+    
+project = 'mouse'
+datafile = 'mouse_data.csv'
+unit_num = 18
+data = ObsData(datafile)
+# data.plot_timestamps()
+
+ref = data.touch_r
+interval = Interval(data, ref)
+
+obj_var = interval.touch_r_next  # 目的変数
+obj_name = \"touch right (next)\"
+exp_var = [interval.touch_l_prev, interval.peg_r_next, interval.peg_l_next]  # 説明変数
+exp_name = [\"touch left (prev)\", \"peg right (next)\", \"peg left (next)\"]
+interval.set_var(obj_var, obj_name, exp_var, exp_name)
+
+model, mse = interval.linear_regression(is_norm=True)
+
+print(mse)
+interval.plot_obj_var(ref)
+interval.plot_error(data, ref)
+coef = pd.DataFrame({'explanatory variables':exp_name, 'coefficient': model.coef_[0]})
+coef.head()" . 9461) ((marker . 10828) . -691) ((marker . 10828) . -691) ((marker . 10828) . -691) ((marker . 9655) . -680) ((marker . 9699) . -691) ((marker) . -691) ((marker* . 9699) . 1) ((marker . 9700) . -691) ((marker* . 9701) . 2) ((marker . 9702) . -690) 10152 nil (nil rear-nonsticky nil 9460 . 9461) (nil fontified nil 8458 . 9461) (8458 . 9461) nil (8458 . 8466) ("        " . 8457) ((marker . 9699) . -8) (8457 . 8466) ("        " . 8456) ((marker . 9699) . -8) (8455 . 8465) (t 23611 64132 639294 304000) nil (6498 . 6508) (t 23611 63577 227023 912000) nil (8040 . 8041) nil undo-tree-canary))
