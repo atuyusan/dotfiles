@@ -93,8 +93,6 @@
 (global-set-key (kbd "s-a") 'move-beginning-of-line)
 ;; move foward
 (global-set-key (kbd "s-f") 'forward-char)
-;; kill selected region
-(global-set-key (kbd "s-w") 'kill-region)
 
 ;; save buffer
 (global-set-key (kbd "s-x s-s") 'save-buffer)
@@ -104,11 +102,18 @@
 (global-set-key (kbd "s-x k") 'kill-buffer)
 ;; close emacs
 (global-set-key (kbd "s-x s-c") 'save-buffers-kill-terminal)
-;; kill cahrs from current positio to haed
+;; kill cahrs from current position to haed
 (defun backward-kill-line (arg)
   (interactive "p")
   (kill-line 0))
 (global-set-key (kbd "C-u") 'backward-kill-line)
+;; kill a word backward, or kill region if the region is selected
+(defun kill-word-or-region ()
+  (interactive)
+  (if (use-region-p)
+      (kill-region (region-beginning) (region-end))
+    (backward-kill-word 1)))
+(global-set-key (kbd "s-w") 'kill-word-or-region)
 
 
 ;;------------------------------
@@ -168,10 +173,8 @@
 (global-set-key (kbd "s-g") 'dumb-jump-go)
 (global-set-key (kbd "s-x s-g") 'dumb-jump-back)
 
-
 ;; flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
-
 
 ;; undo-tree
 (require 'undo-tree)
@@ -359,6 +362,9 @@ load-path))
 
 ;; --- Python ---
 
+;; python-mode
+(require 'python-mode)
+
 ;; yapf
 
 
@@ -392,7 +398,7 @@ load-path))
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (dumb-jump undohist undo-tree flycheck markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
