@@ -51,3 +51,33 @@ echo $SHELL
 exit
 c++ area.cpp 
 exit
+which yapf
+exit
+which yapf
+echo $SHELL
+echo $PATH
+ls
+cd ..
+cd 
+ls
+cd study/
+ls
+cd research/
+ls
+yapf mouse2.py
+echo $PATH
+bash
+exit
+conda
+which conda
+exit
+which conda
+which fish
+fish
+bash
+pwd
+which yapf
+which cd
+which pwd
+yapf
+exit

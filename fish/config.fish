@@ -32,3 +32,4 @@ set fish_color_param '2efef7'
 set fish_color_redirection '00ff00'
 set fish_color_error 'fa58f4'
 set fish_color_quote 'd6d6d6'
+

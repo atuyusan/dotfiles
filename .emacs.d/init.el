@@ -14,7 +14,7 @@
             (normal-top-level-add-subdirs-to-load-path))))))
 
 ;;add directories and their subdirectories to load-path
-(add-to-load-path "elisp")
+(add-to-load-path "elisp" "elpa")
 
 ;;------------------------------
 ;; PATH
@@ -24,15 +24,15 @@
 
 ;;PATHを引き継ぐ
 (defun set-exec-path-from-shell-PATH ()
+  "Set up Emacs' `exec-path' and PATH environment variable to match that used by the user's shell.
+
+This is particularly useful under Mac OSX, where GUI apps are not started from a shell."
   (interactive)
   (let ((path-from-shell (replace-regexp-in-string "[ \t\n]*$" "" (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'"))))
     (setenv "PATH" path-from-shell)
     (setq exec-path (split-string path-from-shell path-separator))))
 
 (set-exec-path-from-shell-PATH)
-
-;(let ((envs '("PATH" "VIRTUAL_ENV" "GOROOT" "GOPATH")))
-;  (exec-path-from-shell-copy-envs envs))
 
 ;;------------------------------
 ;; package管理
@@ -364,12 +364,12 @@ load-path))
 
 ;; python-mode
 (require 'python-mode)
+(add-to-list 'auto-mode-alist '("\\\.py\\\'" . python-mode))
+(add-to-list 'interpreter-mode-alist '("python" . python-mode))
 
-;; yapf
-
-
-
-
+;; py-yapf - auto format
+(require 'py-yapf)
+(add-hook 'python-mode-hook 'py-yapf-enable-on-save)
 
 ;;------------------------------
 ;;その他
@@ -381,7 +381,7 @@ load-path))
 ;; multi-term
 (defvar multi-term-program "")
 (when (require 'multi-term nil t)
-  (setq multi-term-program "/bin/bash"))
+  (setq multi-term-program "/usr/local/bin/fish"))
 
 ;; scroll
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 5)))
@@ -398,7 +398,7 @@ load-path))
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
