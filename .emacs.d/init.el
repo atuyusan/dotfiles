@@ -372,8 +372,11 @@ load-path))
 (add-hook 'python-mode-hook 'py-yapf-enable-on-save)
 
 ;;------------------------------
-;;その他
+;; others
 ;;------------------------------
+
+;; Emacs Ipython Notebook
+(require 'ein)
 
 ;; revert changed file automatically
 (global-auto-revert-mode 1)
@@ -391,6 +394,7 @@ load-path))
 
 ;; don't create backup file  *.~
 (setq make-backup-files 'nil)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -398,7 +402,7 @@ load-path))
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
