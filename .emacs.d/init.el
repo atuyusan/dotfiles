@@ -14,7 +14,7 @@
             (normal-top-level-add-subdirs-to-load-path))))))
 
 ;;add directories and their subdirectories to load-path
-(add-to-load-path "elisp" "elpa")
+(add-to-load-path "elisp" "elpa" "public_repos")
 
 ;;------------------------------
 ;; PATH
