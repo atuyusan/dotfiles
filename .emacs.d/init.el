@@ -308,18 +308,19 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; --- Tex ---
 
 ;; yatex
-;; run yatex mode when open .tex file
-(setq auto-mode-alist
-(cons (cons "\\.tex$" 'yatex-mode) auto-mode-alist))
-(autoload 'yatex-mode "yatex" "Yet Another LaTeX mode" t)
-;; yatex load path
-(setq load-path (cons (expand-file-name
-"/Users/yuta/.emacs.d/elisp/yatex1.80")
-load-path))
-;; use utf-8 on yatex mode
-;;(defvar YaTeX-kanji-code "");; 束縛？
+(require 'yatex)
+(add-to-list 'auto-mode-alist '("\\.tex\\'" . yatex)) ;;auto-mode-alistへの追加
+(setq tex-command "platex")
+(setq bibtex-command "pbibtex")
+;;reftex-mode
+(add-hook 'yatex-mode-hook
+          #'(lambda ()
+              (reftex-mode 1)
+              (define-key reftex-mode-map
+                (concat YaTeX-prefix ">") 'YaTeX-comment-region)
+              (define-key reftex-mode-map
+                (concat YaTeX-prefix "<") 'YaTeX-uncomment-region)))
 (defvar YaTeX-kanji-code 4)
-
 
 ;; --- WEB ---
 
@@ -384,7 +385,7 @@ load-path))
 ;; multi-term
 (defvar multi-term-program "")
 (when (require 'multi-term nil t)
-  (setq multi-term-program "/usr/local/bin/fish"))
+  (setq multi-term-program "/bin/bash"))
 
 ;; scroll
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 5)))
@@ -402,7 +403,7 @@ load-path))
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (yatex latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

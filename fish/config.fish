@@ -33,3 +33,5 @@ set fish_color_redirection '00ff00'
 set fish_color_error 'fa58f4'
 set fish_color_quote 'd6d6d6'
 
+# mac tex
+set -U fish_user_paths $fish_user_paths /usr/local/texlive/2018/bin/x86_64-darwin
