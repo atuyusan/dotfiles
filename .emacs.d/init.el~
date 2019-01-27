@@ -76,7 +76,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 ;; backspace
 (global-set-key (kbd "C-h") 'delete-backward-char)
-;; switch window (if there is only one window, open a new on)
+;; switch window (if there is only one window, open a new one)
 (defun other-window-or-split ()
   (interactive)
   (when (one-window-p)
@@ -186,19 +186,6 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; undohist
 (require 'undohist)
 (undohist-initialize)
-
-;; yasnippet
-(require 'yasnippet)
-(setq yas-snippet-dirs
-    '("~/.emacs.d/yasnippets" ;; お好みで!!
-      "~/.emacs.d/mysnippets"))
-;; insert existing snippets
-(define-key yas-minor-mode-map (kbd "C-x i i") 'yas-insert-snippet)
-;; open buffer for creating nrew snippet
-(define-key yas-minor-mode-map (kbd "C-x i n") 'yas-new-snippet)
-;; edit existing snippet
-(define-key yas-minor-mode-map (kbd "C-x i v") 'yas-visit-snippet-file)
-(yas-global-mode 1)
 
 ;;------------------------------
 ;;表示
@@ -321,7 +308,8 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; --- Tex ---
 
 ;; yatex
-(require 'yatex)
+(autoload 'yatex-mode "yatex" "Yet Another LaTeX mode" t)
+
 (setq auto-mode-alist
       (append '(("\\.tex$" . yatex-mode)
                 ("\\.ltx$" . yatex-mode)
@@ -329,15 +317,15 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
                 ("\\.sty$" . yatex-mode)
                 ("\\.clo$" . yatex-mode)
                 ("\\.bbl$" . yatex-mode)) auto-mode-alist))
+
 (with-eval-after-load 'yatex
   (setq YaTeX-inhibit-prefix-letter t)
   (setq YaTeX-kanji-code nil)
   (setq YaTeX-use-LaTeX2e t)
   (setq YaTeX-use-AMS-LaTeX t)
   (setq YaTeX-dvi2-command-ext-alist
-        '(("Preview\\|TeXShop\\|TeXworks\\|Skim\\|mupdf\\|xpdf\\|Firefox\\|Adobe" . ".dvi")))
-;  (setq tex-command "/usr/texbin/ptex2pdf -l -ot '-synctex=1'")
-  (setq tex-command "platex")
+        '(("Preview\\|TeXShop\\|TeXworks\\|Skim\\|mupdf\\|xpdf\\|Firefox\\|Adobe" . ".pdf")))
+  (setq tex-command "/usr/texbin/ptex2pdf -l -ot '-synctex=1'")
   (setq bibtex-command (cond ((string-match "uplatex\\|-u" tex-command) "/usr/texbin/upbibtex")
                              ((string-match "platex" tex-command) "/usr/texbin/pbibtex")
                              ((string-match "lualatex\\|luajitlatex\\|xelatex" tex-command) "/usr/texbin/bibtexu")
@@ -348,8 +336,8 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
                                 ((string-match "lualatex\\|luajitlatex\\|xelatex" tex-command) "/usr/texbin/texindy")
                                 ((string-match "pdflatex\\|latex" tex-command) "/usr/texbin/makeindex")
                                 (t "/usr/texbin/mendex")))
-  (setq dvi2-command "/usr/bin/open -a Preview")
-;  (setq dvi2-command "/usr/bin/open -a Skim")
+  ;; (setq dvi2-command "/usr/bin/open -a Preview")
+  (setq dvi2-command "/usr/bin/open -a Skim")
   (setq dviprint-command-format "/usr/bin/open -a \"Adobe Reader\" `echo %s | sed -e \"s/\\.[^.]*$/\\.pdf/\"`")
   (auto-fill-mode -1)
   (reftex-mode 1))
@@ -373,6 +361,13 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
                ".pdf"))
       buffer-file-name))))
 
+(defun my-yatex-mode-hook ()
+  (define-key YaTeX-mode-map (kbd "C-c s") 'skim-forward-search)
+  (define-key YaTeX-mode-map (kbd "<f8>") 'YaTeX-typeset-menu)
+  (define-key YaTeX-mode-map (kbd "s-R") 'YaTeX-typeset-menu)
+  (define-key reftex-mode-map (concat YaTeX-prefix ">") 'YaTeX-comment-region)
+  (define-key reftex-mode-map (concat YaTeX-prefix "<") 'YaTeX-uncomment-region))
+(add-hook-lambda 'yatex-mode-hook 'my-yatex-mode-hook)
 
 ;; --- WEB ---
 
@@ -455,7 +450,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yasnippet yatex latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (yatex latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

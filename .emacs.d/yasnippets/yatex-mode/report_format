@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: report_format
+# key: report_format
+# --
+\documentclass{jarticle}
+
+\begin{document}
+\title{}
+\author{情報学研究科先端数理科学専攻 那須悠太}
+\maketitle
+
+  $0
+
+\end{document}
