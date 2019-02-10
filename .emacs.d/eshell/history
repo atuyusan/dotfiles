@@ -1,15 +1,3 @@
-ls
-ll
-la 
-ll
-cd
-ls
-ll
-exit
-ls
-cd
-cd Dropbox/study/
-ls
 cd rails/toy_app/
 ls -a
 git branch
@@ -99,4 +87,42 @@ ls
 jupyter notebook
 ls
 ls elpa
+exit
+ls
+platex report.tex
+exit
+cd ..
+ls
+cd tech/
+ls
+cd algorithm/
+ls
+mv insertion_sort.c insertion_sort.cpp
+exit
+ls
+cd ../algorithm/
+cd ..
+ls
+cd cpp/
+ls
+ls cat*
+ls car*
+cat car.cpp
+exit
+mv stack.cpp 
+mv stack.cpp main.cpp
+touch stack.cpp
+exit
+mv stack.h ../algorithm/
+exit
+cd ..
+ls
+cd tech/algorithm/
+ls
+touch queue.cpp
+touch queue.h
+exit
+mv queue.h my_queue.h
+mv queue.cpp my_queue.cpp
+ls 
 exit

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: figure
+# key: figure
+# --
+\begin{figure}[hbtp]
+ \centering
+ \includegraphics[width=10cm]{$0}
+ \caption{}
+ \label{}
+\end{figure}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: float_table
+# key: float_table
+# --
+\begin{floatingtable}[r]{%
+ \centering
+ \begin{tabular}{$0}
+  \hline
+
+  \hline
+ \end{tabular}}
+ \caption{}
+ \label{}
+\end{floatingtable}

@@ -4,11 +4,13 @@
 # --
 \documentclass{jarticle}
 
+\usepackage[dvipdfmx]{graphicx}
+
 \begin{document}
-\title{}
+\title{$0}
 \author{情報学研究科先端数理科学専攻 那須悠太}
 \maketitle
 
-  $0
+
 
 \end{document}

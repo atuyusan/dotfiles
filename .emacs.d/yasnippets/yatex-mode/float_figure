@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: float_figure
+# key: float_figure
+# --
+\begin{floatingfigure}[l]{$0}
+ \centering
+ \includegraphics[width=]{}
+ \caption{}
+ \label{}
+\end{floatingfigure}

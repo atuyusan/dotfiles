@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: table
+# key: table
+# --
+\begin{table}[hbtp]
+ \caption{$0}
+ \label{}
+ \centering
+ \begin{tabular}{}
+  \hline
+  
+  \hline 
+ \end{tabular}
+\end{table}

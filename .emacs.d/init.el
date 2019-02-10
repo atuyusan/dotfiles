@@ -334,6 +334,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
   (setq YaTeX-kanji-code nil)
   (setq YaTeX-use-LaTeX2e t)
   (setq YaTeX-use-AMS-LaTeX t)
+  (defvar YaTeX-dvi2-command-ext-alist "")
   (setq YaTeX-dvi2-command-ext-alist
         '(("Preview\\|TeXShop\\|TeXworks\\|Skim\\|mupdf\\|xpdf\\|Firefox\\|Adobe" . ".dvi")))
 ;  (setq tex-command "/usr/texbin/ptex2pdf -l -ot '-synctex=1'")
@@ -348,7 +349,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
                                 ((string-match "lualatex\\|luajitlatex\\|xelatex" tex-command) "/usr/texbin/texindy")
                                 ((string-match "pdflatex\\|latex" tex-command) "/usr/texbin/makeindex")
                                 (t "/usr/texbin/mendex")))
-  (setq dvi2-command "/usr/bin/open -a Preview")
+  (setq dvi2-command "/usr/bin/open -a TexShop")
 ;  (setq dvi2-command "/usr/bin/open -a Skim")
   (setq dviprint-command-format "/usr/bin/open -a \"Adobe Reader\" `echo %s | sed -e \"s/\\.[^.]*$/\\.pdf/\"`")
   (auto-fill-mode -1)
