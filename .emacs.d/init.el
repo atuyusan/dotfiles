@@ -285,7 +285,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 
 ;;------------------------------
-;;各言語モード
+;; major mode
 ;;------------------------------
 
 ;; --- commmon lisp ---
@@ -424,6 +424,11 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; py-yapf - auto format
 (require 'py-yapf)
 (add-hook 'python-mode-hook 'py-yapf-enable-on-save)
+
+
+;; --- org-mode ---
+(defvar org-startup-truncated)
+(setq org-startup-truncated t)
 
 ;;------------------------------
 ;; others
