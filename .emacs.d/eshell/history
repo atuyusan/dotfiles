@@ -1,61 +1,3 @@
-alias rm 'rm -i'
-ls
-cd
-ls
-touch file
-eit
-exit
-ls
-cd
-la
-ll
-ls
-touch file
-eixt
-exit
-ls
-cd
-touch file
-ls
-rm file
-ls
-rm file
-ls
-exit
-clisp
-cd ../Dropbox/study/rails/toy_app
-echo $SHELL
-exit
-c++ area.cpp 
-exit
-which yapf
-exit
-which yapf
-echo $SHELL
-echo $PATH
-ls
-cd ..
-cd 
-ls
-cd study/
-ls
-cd research/
-ls
-yapf mouse2.py
-echo $PATH
-bash
-exit
-conda
-which conda
-exit
-which conda
-which fish
-fish
-bash
-pwd
-which yapf
-which cd
-which pwd
 yapf
 exit
 $SHELL
@@ -125,4 +67,62 @@ cpp main.cpp
 exit
 c++ main.cpp
 ./a.out 
+exit
+cd ../.ipynb_checkpoints/初めまして。那須悠太と申します。この度はご連絡をいただき、誠にありがとうございます。つい先日、就職活動を終了したため、オファーは辞退させていただきたく存じます。ご期待に添えず、大変申し訳ございません。
+cd ../tech/algorithm/
+rm hash.cpp 
+touch iterator.cpp
+exit
+c++ iterator.cpp 
+./a.out
+c++ lower_bound.cpp 
+./a.out
+exit
+c++ lower_bound.cpp 
+./a.out
+c++ lower_bound.cpp 
+./a.out
+exit
+c++ lower_bound.cpp 
+./a.out
+c++ lower_bound.cpp 
+c++ lower_bound.cpp 
+./a.out
+exit
+c++ lower_bound.cpp 
+./a.out
+exit
+c++ lower_bound.cpp 
+./a.out
+mv allocation.cpp exhaustive_search.cpp
+exit
+c++ main.cpp
+./a.out
+exit
+c++ main
+c++ main.cpp
+./a.out
+exit
+c++ main.cpp 
+./a.out
+eit
+exit
+cd ..
+ls
+cd tech/alds1
+cd tech/algorithm/
+ls
+exit
+ls
+touch sort.cpp stable_sort.cpp
+exit
+c++ sort.cpp
+./a.out
+exit
+c++ sort.cpp
+exit
+c++ sort.cpp 
+exit
+c++ sort.cpp
+./a.out
 exit

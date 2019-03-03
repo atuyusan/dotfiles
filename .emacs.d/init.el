@@ -251,7 +251,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; string ""
 (set-face-foreground 'font-lock-string-face "darkseagreen2")
 ;; comments
-(set-face-foreground 'font-lock-comment-face "maroon1")
+(set-face-foreground 'font-lock-comment-face "ff66ff")
 ;; keywords
 (set-face-foreground 'font-lock-keyword-face "Darkturquoise")
 ;; variables
@@ -291,7 +291,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; --- commmon lisp ---
 
 ;; slime
-(defvar inferior-lisp-program "sbcl")
+(defvar inferior-lisp-program "clisp")
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/slime"))
 (require 'slime)
 (slime-setup '(slime-repl slime-fancy slime-banner slime-indentation))
@@ -430,6 +430,9 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (defvar org-startup-truncated)
 (setq org-startup-truncated t)
 
+;; --- dot ---
+(require 'graphviz-dot-mode)
+
 ;;------------------------------
 ;; others
 ;;------------------------------
@@ -461,7 +464,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yasnippet yatex latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

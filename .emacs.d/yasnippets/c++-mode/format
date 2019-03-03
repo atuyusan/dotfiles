@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: format
+# key: format
+# --
+#include<iostream>
+using namespace std;
+
+int main() {
+  $0
+
+  return 0;
+}
