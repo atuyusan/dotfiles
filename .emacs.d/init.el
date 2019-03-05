@@ -205,9 +205,9 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;;------------------------------
 
 ;; hiwin - visualize non-active window
-(require 'hiwin)
-(hiwin-activate)
-(set-face-background 'hiwin-face "gray25")
+;; (require 'hiwin)
+;; (hiwin-activate)
+;; (set-face-background 'hiwin-face "gray25")
 
 ;; show current directory on mode line
 (let ((ls (member 'mode-line-buffer-identification
@@ -242,7 +242,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; indent
 (setq-default tab-width 2)
 
-;; --- colors ---
+;; faces
 
 ;; background
 (set-face-background 'default "#131926")
@@ -258,6 +258,10 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (set-face-foreground 'font-lock-variable-name-face "OliveDrab2")
 ;; constans, symbols
 (set-face-foreground 'font-lock-constant-face "deepskyblue")
+;; keyword variables
+(set-face-foreground 'font-lock-builtin-face "skyblue")
+;; functions
+(set-face-foreground 'font-lock-function-name-face "aquamarine")
 
 ;; opacity
 (if window-system
@@ -271,8 +275,8 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (blink-cursor-mode 0)
 
 ;; hilight current line
-(global-hl-line-mode t)
-(set-face-background 'hl-line "#424242")
+;; (global-hl-line-mode t)
+;; (set-face-background 'hl-line "#424242")
 
 ;; hilight brackets
 (show-paren-mode t)
