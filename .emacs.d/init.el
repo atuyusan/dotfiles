@@ -321,7 +321,6 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; Connections
 (push '(slime-connection-list-mode) popwin:special-display-config)
 
-
 ;; --- Tex ---
 
 ;; yatex
@@ -474,4 +473,6 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(slime-repl-inputed-output-face ((t (:foreground "lime"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground "lightskyblue"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground "deepskyblue")))))
