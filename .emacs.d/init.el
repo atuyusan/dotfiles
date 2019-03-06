@@ -61,7 +61,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;;------------------------------
 ;; key binds
 ;;------------------------------
-;;書式: (global-set-key KEY COMMAND)
+;; format: (global-set-key KEY COMMAND)
 ;; s:(super key (command key)
 
 ;; unset some default key binds
@@ -114,6 +114,8 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
       (kill-region (region-beginning) (region-end))
     (backward-kill-word 1)))
 (global-set-key (kbd "s-w") 'kill-word-or-region)
+;; copy
+(global-set-key (kbd "C-w") 'kill-ring-save)
 
 
 ;;------------------------------
