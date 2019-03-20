@@ -421,10 +421,10 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 ;; --- Python ---
 
-;; python-mode
-(require 'python-mode)
-(add-to-list 'auto-mode-alist '("\\\.py\\\'" . python-mode))
-(add-to-list 'interpreter-mode-alist '("python" . python-mode))
+;; ;; python-mode
+;; (require 'python-mode)
+;; (add-to-list 'auto-mode-alist '("\\\.py\\\'" . python-mode))
+;; (add-to-list 'interpreter-mode-alist '("python" . python-mode))
 
 ;; py-yapf - auto format
 (require 'py-yapf)
@@ -469,7 +469,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf python-mode flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
