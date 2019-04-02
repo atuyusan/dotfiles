@@ -1,0 +1,4 @@
+
+((digest . "4a4e6a08fdff88b41655a6fd6fb76f3c") (undo-list nil (110 . 111) nil ("Hello " . -110) ((marker . 111) . -6) ((marker) . -5) ((marker) . -5) 116 nil ("World!\"" . -116) ((marker . 111) . -7) 123 (t 23711 20729 502535 527000) nil (3 . 9) nil (1 . 18) nil (1 . 2) (t 23711 20704 265683 429000) nil (101 . 102) (42 . 43) (159 . 160) 1 nil ("
+" . 1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("from bottle import route, run" . 1) ((marker) . -29) nil ("
+" . 1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("import os" . 1) ((marker) . -9) ((marker) . -9) nil (nil rear-nonsticky nil 198 . 199) (nil fontified nil 41 . 199) (41 . 199) nil (40 . 41) nil (37 . 40) nil (29 . 37) nil (23 . 29) ("impo" . -23) ((marker) . -4) 27 nil (11 . 27) nil (10 . 11) nil (7 . 10) nil (1 . 7) ("impo" . -1) ((marker) . -4) 5 nil (1 . 5) (t . -1)))

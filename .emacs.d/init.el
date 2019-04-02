@@ -419,6 +419,12 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (require 'rainbow-mode)
 (add-hook 'web-mode-hook 'rainbow-mode)
 
+;; xml
+(require 'nxml-mode)
+(add-to-list 'auto-mode-alist '("\\.xml?\\'" . nxml-mode))
+(add-to-list 'auto-mode-alist '("\\.plist?\\'" . nxml-mode))
+
+
 ;; --- Python ---
 
 ;; ;; python-mode
