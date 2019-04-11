@@ -7,3 +7,4 @@ alias la='ls -aFG'
 alias rm='rm -i'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'  #EmacsをGUIで起動
 alias speedtest='/usr/local/bin/speedtest'
+alias python="python3"
