@@ -8,7 +8,7 @@ export LSCOLORS='gxfxcxdxhxegedabagacad'
 
 eval "$(rbenv init -)"
 
-alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+#alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -25,3 +25,5 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+export PATH="/usr/local/sbin:$PATH"
