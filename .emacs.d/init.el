@@ -444,6 +444,13 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; --- dot ---
 (require 'graphviz-dot-mode)
 
+;; -- OCaml --
+
+(add-to-list 'auto-mode-alist '("\\.ml[iylp]?" . tuareg-mode))
+(autoload 'tuareg-mode "tuareg" "Major mode for editing OCaml code" t)
+(autoload 'tuareg-run-ocaml "tuareg" "Run an inferior OCaml process." t)
+(autoload 'ocamldebug "ocamldebug" "Run the OCaml debugger" t)
+
 ;;------------------------------
 ;; others
 ;;------------------------------
@@ -475,7 +482,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
