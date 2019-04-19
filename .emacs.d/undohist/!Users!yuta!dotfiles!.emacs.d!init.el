@@ -1,5 +1,20 @@
 
-((digest . "a242fe16b1c8bc8ad446f78a51ec759f") (undo-list nil (nil rear-nonsticky nil 14468 . 14469) (nil fontified nil 14200 . 14469) (14200 . 14469) nil (14198 . 14200) nil (14184 . 14198) nil (14182 . 14184) (t . 0) nil (15330 . 15815) ("(custom-set-faces
+((digest . "8d8adf9135206b6f249b438fc307e582") (undo-list nil (14554 . 14564) nil (14546 . 14554) nil ("/" . -14546) ((marker . 14564) . -1) ("/" . -14547) ((marker . 14564) . -1) 14548 nil (14546 . 14548) nil (14535 . 14546) nil (14520 . 14535) ("auto-mode" . -14520) ((marker . 14564) . -9) 14529 nil (14528 . 14529) nil (14527 . 14528) nil ("-" . -14527) ((marker . 14564) . -1) 14528 nil (14518 . 14528) nil (14507 . 14518) ("add-to-li" . -14507) ((marker . 14564) . -9) 14516 nil (14506 . 14516) nil (14505 . 14506) (t 23737 13862 143094 57000) nil (14504 . 14505) nil (14495 . 14504) nil ("n" . -14495) ((marker . 14564) . -1) ("a" . -14496) ((marker . 14564) . -1) ("s" . -14497) ((marker . 14564) . -1) ("m" . -14498) ((marker . 14564) . -1) ("^" . -14499) ((marker . 14564) . -1) 14500 nil (14493 . 14500) nil (14486 . 14493) ("requi" . -14486) ((marker . 14564) . -5) 14491 nil (14485 . 14491) nil (14484 . 14485) nil (14482 . 14484) nil ("^" . -14482) ((marker . 14564) . -1) 14483 nil (14471 . 14483) nil (14469 . 14471) (t . 0) nil (15627 . 16112) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -15627) (15624 . 15626) (15252 . 15256) (" " . 15252) ("
+" . -15621) (15252 . 15253) (15620 . 15621) (15251 . 15252) (" " . 15251) (15241 . 15620) (" " . 15241) (14968 . 15242) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))" . -14968) nil (nil rear-nonsticky nil 14468 . 14469) (nil fontified nil 14200 . 14469) (14200 . 14469) nil (14198 . 14200) nil (14184 . 14198) nil (14182 . 14184) (t . 0) nil (15330 . 15815) ("(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.

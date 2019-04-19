@@ -1,5 +1,20 @@
 
-((digest . "c0fa5ffefd4db21329bccce5d067f056") (undo-list (15330 . 15815) ("(custom-set-faces
+((digest . "2516e3f4cf02e8951327713426add85b") (undo-list (15627 . 16112) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -15627) ((marker . 15627) . -485) ((marker . 15627) . -393) ((marker . 15627) . -485) (15624 . 15626) (15252 . 15256) (" " . 15252) ("
+" . -15621) (15252 . 15253) (15620 . 15621) (15251 . 15252) (" " . 15251) (15241 . 15620) (" " . 15241) (14968 . 15242) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))" . -14968) nil (nil rear-nonsticky nil 14468 . 14469) (nil fontified nil 14200 . 14469) (14200 . 14469) nil (14198 . 14200) nil (14184 . 14198) nil (14182 . 14184) (t . 0) nil (15330 . 15815) ("(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
@@ -21,7 +36,7 @@
  ;; If there is more than one, they won't work right.
  '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
  '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
- '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -15330) ((marker . 15330) . -485) ((marker . 15330) . -393) ((marker . 15330) . -485) (15327 . 15329) (14965 . 14969) (" " . 14965) ("
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -15330) (15327 . 15329) (14965 . 14969) (" " . 14965) ("
 " . -15324) (14965 . 14966) (15323 . 15324) (14964 . 14965) (" " . 14964) (14954 . 15323) (" " . 14954) (14681 . 14955) ("(custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
