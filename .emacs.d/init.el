@@ -455,6 +455,18 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (require 'nasm-mode)
 (add-to-list 'auto-mode-alist '("\\.nas?\\'" . nasm-mode))
 
+;; -- R --
+(setq auto-mode-alist
+      (append '(("\\.r$" . R-mode)
+ 		("\\.R$" . R-mode)
+ 		) auto-mode-alist))
+(autoload 'R-mode "ess-site" "Emacs Speaks Statistics mode" t)
+(add-hook 'ess-mode-hook
+ 	  '(lambda ()
+ 	     (define-key ess-mode-map (kbd C-h) 'ess-help)
+ 	     (define-key ess-mode-map (kbd C-e) 'ess-eval-buffer)
+ 	     ))
+
 ;;------------------------------
 ;; others
 ;;------------------------------
@@ -486,7 +498,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

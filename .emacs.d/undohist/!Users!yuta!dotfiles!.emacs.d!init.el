@@ -1,5 +1,37 @@
 
-((digest . "8d8adf9135206b6f249b438fc307e582") (undo-list nil (14554 . 14564) nil (14546 . 14554) nil ("/" . -14546) ((marker . 14564) . -1) ("/" . -14547) ((marker . 14564) . -1) 14548 nil (14546 . 14548) nil (14535 . 14546) nil (14520 . 14535) ("auto-mode" . -14520) ((marker . 14564) . -9) 14529 nil (14528 . 14529) nil (14527 . 14528) nil ("-" . -14527) ((marker . 14564) . -1) 14528 nil (14518 . 14528) nil (14507 . 14518) ("add-to-li" . -14507) ((marker . 14564) . -9) 14516 nil (14506 . 14516) nil (14505 . 14506) (t 23737 13862 143094 57000) nil (14504 . 14505) nil (14495 . 14504) nil ("n" . -14495) ((marker . 14564) . -1) ("a" . -14496) ((marker . 14564) . -1) ("s" . -14497) ((marker . 14564) . -1) ("m" . -14498) ((marker . 14564) . -1) ("^" . -14499) ((marker . 14564) . -1) 14500 nil (14493 . 14500) nil (14486 . 14493) ("requi" . -14486) ((marker . 14564) . -5) 14491 nil (14485 . 14491) nil (14484 . 14485) nil (14482 . 14484) nil ("^" . -14482) ((marker . 14564) . -1) 14483 nil (14471 . 14483) nil (14469 . 14471) (t . 0) nil (15627 . 16112) ("(custom-set-faces
+((digest . "299ae42d840da5bf7e0f9bd883d171f2") (undo-list nil ("
+" . 14896) ((marker . 15212) . -1) ((marker . 15212) . -1) ((marker) . -1) nil (" 	     (define-key ess-mode-map [f7] 'ess-eval-region-or-function-or-paragraph-and-step)" . 14896) ((marker) . -88) nil (14874 . 14877) nil ("e" . -14874) ((marker . 14905) . -1) 14875 nil (14868 . 14875) nil ("[" . -14868) ((marker . 14905) . -1) ("f" . -14869) ((marker . 14905) . -1) ("5" . -14870) ((marker . 14905) . -1) ("]" . -14871) ((marker . 14905) . -1) ((marker* . 14904) . 1) ((marker . 14905) . -1) 14872 nil (14815 . 14816) nil ("[" . -14815) ((marker . 14905) . -1) 14816 nil (14815 . 14824) nil ("[" . -14815) ((marker . 14815) . -1) ((marker . 14905) . -1) ("f" . -14816) ((marker . 14815) . -1) ((marker . 14905) . -1) ("1" . -14817) ((marker . 14815) . -1) ((marker . 14905) . -1) ("]" . -14818) ((marker . 14815) . -1) ((marker . 14905) . -1) ((marker* . 14904) . 1) ((marker . 14905) . -1) 14819 nil (nil rear-nonsticky nil 14983 . 14984) (nil fontified nil 14742 . 14984) (14742 . 14984) nil (14741 . 14742) (t 23739 7726 66863 612000) nil (nil rear-nonsticky nil 14740 . 14741) (nil fontified nil 14577 . 14741) (14577 . 14741) nil ("
+" . -14577) ((marker . 14905) . -1) 14578 nil (14576 . 14578) nil (14572 . 14576) nil ("R" . -14572) ((marker . 14905) . -1) 14573 nil (14572 . 14573) nil ("E" . -14572) ((marker . 14905) . -1) ("S" . -14573) ((marker . 14905) . -1) ("S" . -14574) ((marker . 14905) . -1) 14575 nil (14566 . 14575) nil (14564 . 14566) (t . 0) nil (15726 . 16211) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -15726) (15723 . 15725) (15347 . 15351) (" " . 15347) ("
+" . -15720) (15347 . 15348) (15719 . 15720) (15346 . 15347) (" " . 15346) (15336 . 15719) (" " . 15336) (15063 . 15337) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))" . -15063) nil (15726 . 16211) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -15726) (15723 . 15725) (15347 . 15351) (" " . 15347) ("
+" . -15720) (15347 . 15348) (15719 . 15720) (15346 . 15347) (" " . 15346) (15336 . 15719) (" " . 15336) (15063 . 15337) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))" . -15063) nil (14554 . 14564) nil (14546 . 14554) nil ("/" . -14546) ("/" . -14547) 14548 nil (14546 . 14548) nil (14535 . 14546) nil (14520 . 14535) ("auto-mode" . -14520) 14529 nil (14528 . 14529) nil (14527 . 14528) nil ("-" . -14527) 14528 nil (14518 . 14528) nil (14507 . 14518) ("add-to-li" . -14507) 14516 nil (14506 . 14516) nil (14505 . 14506) (t 23737 13862 143094 57000) nil (14504 . 14505) nil (14495 . 14504) nil ("n" . -14495) ("a" . -14496) ("s" . -14497) ("m" . -14498) ("^" . -14499) 14500 nil (14493 . 14500) nil (14486 . 14493) ("requi" . -14486) 14491 nil (14485 . 14491) nil (14484 . 14485) nil (14482 . 14484) nil ("^" . -14482) 14483 nil (14471 . 14483) nil (14469 . 14471) (t . 0) nil (15627 . 16112) ("(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
