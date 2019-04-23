@@ -203,7 +203,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (yas-global-mode 1)
 
 ;;------------------------------
-;;表示
+;; display
 ;;------------------------------
 
 ;; hiwin - visualize non-active window
@@ -220,7 +220,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
                                 ")"))
                 (cdr ls))))
 
-;;タイトルバー
+;; title bar
 ;;show absolite path of file of buffer name
 (when (window-system)
   (setq frame-title-format '("" global-mode-string
@@ -282,6 +282,8 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 ;; hilight brackets
 (show-paren-mode t)
+;; automatically insert the right matching bracket
+(electric-pair-mode 1)
 
 ;; show line number
 (global-linum-mode t)
