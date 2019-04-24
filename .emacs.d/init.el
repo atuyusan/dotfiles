@@ -154,7 +154,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (defvar counsel-find-file-ignore-regexp (regexp-opt '("./" "../")))
 
 ;; swiper - isearch extention
-(global-set-key (kbd "s-s") 'swiper)
+(global-set-key (kbd "C-s") 'swiper)
 (defvar swiper-include-line-number-in-search t)  ;; line-numberでsearch
 
 ;; recentf
@@ -293,7 +293,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 
 ;;------------------------------
-;; major mode
+;; major modes
 ;;------------------------------
 
 ;; --- commmon lisp ---
@@ -468,6 +468,41 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  	     (define-key ess-mode-map (kbd C-h) 'ess-help)
  	     (define-key ess-mode-map (kbd C-e) 'ess-eval-buffer)
  	     ))
+
+;; ------------------------------
+;; original major modes
+;; ------------------------------
+
+;; for 「プログラミング言語の基礎概念」
+;; ASCII expression
+
+(require 'generic-x)
+;; define major mode
+(define-generic-mode 'ascii-expression-mode
+  ;; comments
+  '("//")
+  ;; keywords
+  '("plus" "times" "is" "by" "evalto" "--->" "-*->" "-d->" "|-" "->" "==>" "=>" ">>")
+  ;; faces
+  nil
+  ;; files for which to activate this mode
+  '("\\.as$")
+  ;; other function to call
+  '(define-as-keymap)
+  ;; description for this mode
+  "Major mode for ASCII expression, which is used in COPL."
+  )
+
+(defun define-as-keymap ()
+  "This function define local keymap for ascii-expression-mode."  ;; doc string
+  (local-set-key (kbd "s-s") 'insert-s-with-paren))
+
+(defun insert-s-with-paren ()
+  "This function just insert \"S()\"."
+  (interactive)
+  (insert "S()")
+  (backward-char))
+
 
 ;;------------------------------
 ;; others
