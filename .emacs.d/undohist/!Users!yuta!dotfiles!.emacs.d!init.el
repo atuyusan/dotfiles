@@ -1,5 +1,5 @@
 
-((digest . "f8d192cfeb40d1c3b36663690a227789") (undo-list nil (13895 . 13906) ("python-m" . -13895) ((marker . 13907) . -8) 13903 nil (13886 . 13903) (13885 . 13887) ("(" . -13885) (13885 . 13886) nil ("(require 'python-mode)" . -13885) ((marker . 13885) . -22) ((marker . 13907) . -22) ((marker) . -1) ((marker* . 13906) . 1) ((marker . 13907) . -22) ((marker* . 13885) . 22) ((marker . 13886) . -1) ((marker . 13885) . -22) ((marker . 13885) . -22) 13907 (t . 0) nil (17221 . 17706) ("(custom-set-faces
+((digest . "19a45b03d754a7afb571411585065975") (undo-list nil (13975 . 13978) (13911 . 13914) (13885 . 13888) 14032 (t 23745 37438 215268 461000) nil (13895 . 13906) ("python-m" . -13895) 13903 nil (13886 . 13903) (13885 . 13887) ("(" . -13885) (13885 . 13886) nil ("(require 'python-mode)" . -13885) ((marker* . 14040) . 1) ((marker . 14041) . -22) ((marker* . 13978) . 22) ((marker . 13979) . -1) ((marker . 13885) . -22) ((marker . 13885) . -22) 13907 (t . 0) nil (17221 . 17706) ("(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
