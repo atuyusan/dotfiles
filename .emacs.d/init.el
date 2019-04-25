@@ -1,4 +1,4 @@
-a;;------------------------------
+;;------------------------------
 ;;ロードパスの設定（初めに書いておく）
 ;;------------------------------
 
@@ -76,8 +76,9 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 ;; backspace
 (global-set-key (kbd "C-h") 'delete-backward-char)
-;; switch window (if there is only one window, open a new on)
+
 (defun other-window-or-split ()
+  "Switch window (if there is only one window, open a new on)."
   (interactive)
   (when (one-window-p)
     (split-window-horizontally))
@@ -102,13 +103,15 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (global-set-key (kbd "s-x k") 'kill-buffer)
 ;; close emacs
 (global-set-key (kbd "s-x s-c") 'save-buffers-kill-terminal)
-;; kill cahrs from current position to haed
-(defun backward-kill-line (arg)
-  (interactive "p")
+
+(defun backward-kill-line ()
+  "Kill cahrs from current position to haed."
+  (interactive)
   (kill-line 0))
 (global-set-key (kbd "C-u") 'backward-kill-line)
-;; kill a word backward, or kill region if the region is selected
+
 (defun kill-word-or-region ()
+  "Kill a word backward, or kill region if the region is selected."
   (interactive)
   (if (use-region-p)
       (kill-region (region-beginning) (region-end))
