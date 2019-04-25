@@ -24,9 +24,7 @@
 
 ;;PATHを引き継ぐ
 (defun set-exec-path-from-shell-PATH ()
-  "Set up Emacs' `exec-path' and PATH environment variable to match that used by the user's shell.
-
-This is particularly useful under Mac OSX, where GUI apps are not started from a shell."
+  "Set up Emacs' `exec-path' and PATH environment variable to match that used by the user's shell.This is particularly useful under Mac OSX, where GUI apps are not started from a shell."
   (interactive)
   (let ((path-from-shell (replace-regexp-in-string "[ \t\n]*$" "" (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'"))))
     (setenv "PATH" path-from-shell)
@@ -117,9 +115,15 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
       (kill-region (region-beginning) (region-end))
     (backward-kill-word 1)))
 (global-set-key (kbd "s-w") 'kill-word-or-region)
+
 ;; copy
 (global-set-key (kbd "C-w") 'kill-ring-save)
 
+;; go to beginning of buffer
+(global-set-key (kbd "C-,") 'beginning-of-buffer)
+
+;; go to end of buffer
+(global-set-key (kbd "C-.") 'end-of-buffer)
 
 ;;------------------------------
 ;;補完・検索・文法チェック
