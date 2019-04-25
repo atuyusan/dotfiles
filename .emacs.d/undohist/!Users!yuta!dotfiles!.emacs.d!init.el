@@ -1,2 +1,17 @@
 
-((digest . "54405c01f78c8f6ceba5838c3878241e") (undo-list nil (15767 . 15772) (t 23744 25538 167968 574000) nil (15107 . 15108) ("」" . -15107) ((marker*) . 1) (15107 . 15108) nil ("」" . -15107) ((marker . 15788) . -1) ((marker*) . 1) ((marker) . -1) (15107 . 15108) 15093 nil ("」" . 15093) nil (15092 . 15094) ("「" . -15092) (15092 . 15093) nil ("「" . -15092) ((marker . 15788) . -1) (15092 . 15093) nil undo-tree-canary))
+((digest . "f8d192cfeb40d1c3b36663690a227789") (undo-list nil (13895 . 13906) ("python-m" . -13895) ((marker . 13907) . -8) 13903 nil (13886 . 13903) (13885 . 13887) ("(" . -13885) (13885 . 13886) nil ("(require 'python-mode)" . -13885) ((marker . 13885) . -22) ((marker . 13907) . -22) ((marker) . -1) ((marker* . 13906) . 1) ((marker . 13907) . -22) ((marker* . 13885) . 22) ((marker . 13886) . -1) ((marker . 13885) . -22) ((marker . 13885) . -22) 13907 (t . 0) nil (17221 . 17706) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -17221) (17218 . 17220) (16830 . 16834) (" " . 16830) ("
+" . -17215) (16830 . 16831) (17214 . 17215) (16829 . 16830) (" " . 16829) (16819 . 17214) (" " . 16819) (16546 . 16820) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))" . -16546) nil (";; " . -13969) (";; " . -13908) (";; " . -13885) 14042 (t 23744 34270 123770 882000) nil undo-tree-canary))

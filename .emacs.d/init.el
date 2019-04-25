@@ -1,4 +1,4 @@
-;;------------------------------
+a;;------------------------------
 ;;ロードパスの設定（初めに書いておく）
 ;;------------------------------
 
@@ -430,9 +430,9 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; --- Python ---
 
 ;; ;; python-mode
-;; (require 'python-mode)
-;; (add-to-list 'auto-mode-alist '("\\\.py\\\'" . python-mode))
-;; (add-to-list 'interpreter-mode-alist '("python" . python-mode))
+(require 'python-mode)
+(add-to-list 'auto-mode-alist '("\\\.py\\\'" . python-mode))
+(add-to-list 'interpreter-mode-alist '("python" . python-mode))
 
 ;; py-yapf - auto format
 (require 'py-yapf)
@@ -493,15 +493,20 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
   "Major mode for ASCII expression, which is used in COPL."
   )
 
+(global-set-key (kbd "s-z") nil)
+
 (defun define-as-keymap ()
   "This function define local keymap for ascii-expression-mode."  ;; doc string
-  (local-set-key (kbd "s-s") 'insert-s-with-paren))
+  ;; insert "S()"
+  (local-set-key (kbd "s-s") '(lambda ()
+                                (interactive)
+                                (insert "S()")
+                                (backward-char)))
+  ;; insert "Z"
+  (local-set-key (kbd "s-z") '(lambda ()
+                                (interactive)
+                                (insert "Z"))))
 
-(defun insert-s-with-paren ()
-  "This function just insert \"S()\"."
-  (interactive)
-  (insert "S()")
-  (backward-char))
 
 
 ;;------------------------------
@@ -535,7 +540,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+    (python-mode ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
