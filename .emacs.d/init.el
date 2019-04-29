@@ -252,25 +252,16 @@
 (setq-default tab-width 2)
 
 ;; faces
-
-;; background
 (set-face-background 'default "#131926")
-;; texts
 (set-face-foreground 'default "lightgray")
-;; string ""
-(set-face-foreground 'font-lock-string-face "darkseagreen2")
-;; comments
-(set-face-foreground 'font-lock-comment-face "ff66ff")
-;; keywords
-(set-face-foreground 'font-lock-keyword-face "Darkturquoise")
-;; variables
-(set-face-foreground 'font-lock-variable-name-face "OliveDrab2")
-;; constans, symbols
-(set-face-foreground 'font-lock-constant-face "deepskyblue")
-;; keyword variables
-(set-face-foreground 'font-lock-builtin-face "skyblue")
-;; functions
-(set-face-foreground 'font-lock-function-name-face "aquamarine")
+(set-face-foreground 'font-lock-string-face "greenyellow")
+(set-face-foreground 'font-lock-comment-face "deepskyblue1")
+(set-face-foreground 'font-lock-keyword-face "cyan2")
+(set-face-foreground 'font-lock-variable-name-face "lightgray")
+(set-face-foreground 'font-lock-constant-face "springgreen")
+(set-face-foreground 'font-lock-builtin-face "cyan2")
+(set-face-foreground 'font-lock-function-name-face "aquamarine1")
+(set-face-foreground 'font-lock-doc-face "deepskyblue1")
 
 ;; opacity
 (if window-system
