@@ -254,14 +254,15 @@
 ;; faces
 (set-face-background 'default "#131926")
 (set-face-foreground 'default "lightgray")
-(set-face-foreground 'font-lock-string-face "greenyellow")
+(set-face-foreground 'font-lock-string-face "lightskyblue")
 (set-face-foreground 'font-lock-comment-face "deepskyblue1")
 (set-face-foreground 'font-lock-keyword-face "cyan2")
 (set-face-foreground 'font-lock-variable-name-face "lightgray")
-(set-face-foreground 'font-lock-constant-face "springgreen")
+(set-face-foreground 'font-lock-constant-face "cyan2")
 (set-face-foreground 'font-lock-builtin-face "cyan2")
-(set-face-foreground 'font-lock-function-name-face "aquamarine1")
+(set-face-foreground 'font-lock-function-name-face "green")
 (set-face-foreground 'font-lock-doc-face "deepskyblue1")
+(set-face-foreground 'font-lock-type-face "greenyellow")
 
 ;; opacity
 (if window-system
