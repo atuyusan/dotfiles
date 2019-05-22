@@ -507,6 +507,18 @@
                                 (insert "Z"))))
 
 
+;;------------------------------
+;; shell
+;;------------------------------
+
+;; eshell
+(set-face-foreground 'eshell-ls-directory "cyan2")  ;; directories
+(set-face-foreground 'eshell-prompt "green")  ;; prompts
+(set-face-foreground 'eshell-ls-symlink "plum1")  ;; symbolic links
+(set-face-foreground 'eshell-ls-backup "lightgray")  ;; normal files
+(set-face-foreground 'eshell-ls-readonly "lightgray")  ;; normal files
+
+
 
 ;;------------------------------
 ;; others
