@@ -1,21 +1,3 @@
-mv insertion_sort.c insertion_sort.cpp
-exit
-ls
-cd ../algorithm/
-cd ..
-ls
-cd cpp/
-ls
-ls cat*
-ls car*
-cat car.cpp
-exit
-mv stack.cpp 
-mv stack.cpp main.cpp
-touch stack.cpp
-exit
-mv stack.h ../algorithm/
-exit
 cd ..
 ls
 cd tech/algorithm/
@@ -125,4 +107,22 @@ ls
 cd algorithm
 ls
 ./a.out
+exit
+which brew
+brew update
+brew upgrade
+ls
+la
+ll
+echo "aiueo"
+cd dotfiles
+ls
+git status
+git add .
+git commit -m "Set faces for eshell"
+git push origin master
+history 10 
+ls
+ls ..
+ls
 exit

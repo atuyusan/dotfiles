@@ -143,7 +143,7 @@
 
 ;; neotree - show directory tree
 (require 'neotree)
-(global-set-key (kbd "s-o") 'neotree-toggle)
+(global-set-key (kbd "C-i") 'neotree-toggle)
 (setq neo-theme 'ascii)  ;; theme
 (setq neo-smart-open t)  ;; show files in current directory
 
