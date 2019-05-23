@@ -1,25 +1,52 @@
 
-((digest . "2427c6f5d0a07f5d977901cf3f8aec7d") (undo-list (17763 . 18248) ("(custom-set-faces
+((digest . "6fc1aefe9b85753fd4455c20403d801a") (undo-list (18389 . 18874) ("(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
  '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
- '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -17763) ((marker . 17763) . -485) ((marker . 17763) . -393) ((marker . 17763) . -485) (17760 . 17762) (17374 . 17378) (" " . 17374) ("
-" . -17757) (17374 . 17375) (17756 . 17757) (17373 . 17374) (" " . 17373) (17363 . 17756) (" " . 17363) (17090 . 17364) ("(custom-set-variables
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -18389) ((marker . 18389) . -485) ((marker . 18389) . -393) ((marker . 18389) . -485) (17434 . 17541) (17395 . 17402) ("    " . 17395) (17378 . 17383) ("  " . 17378) (17353 . 17357) (" " . 17353) ("
+" . -17425) (17389 . 17393) (17375 . 17377) (17353 . 17354) (17418 . 17419) (17385 . 17386) (" " . 17385) (17373 . 17374) (" " . 17373) (17352 . 17353) (" " . 17352) (17342 . 17418) (" " . 17342) (17291 . 17343) (16869 . 16873) (" " . 16869) ("
+" . -17288) (16869 . 16870) (17287 . 17288) (16868 . 16869) (" " . 16868) (16858 . 17287) (" " . 16858) (16585 . 16859) ("(custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))" . -17090) ((marker . 17090) . -22) ((marker . 17090) . -22) ((marker . 17090) . -68) ((marker . 17090) . -68) ((marker . 17090) . -133) ((marker . 17090) . -133) ((marker . 17090) . -191) ((marker . 17090) . -191) ((marker . 17090) . -245) ((marker . 17090) . -245) ((marker . 17090) . -274) ((marker . 17090) . -274) nil (16589 . 16635) ("
-
-
-
-;;------------------------------
-;; others" . 16589) nil ("
-" . -16589) ((marker . 16246) . -1) ((marker . 16593) . -1) ((marker . 16593) . -1) 16590 nil (16589 . 16590) (t 23780 64120 90979 775000) nil ("
-" . -16589) ((marker . 16246) . -1) ((marker . 16593) . -1) ((marker . 16593) . -1) ("
-" . -16590) ((marker . 16246) . -1) ((marker . 16019) . -1) ((marker . 16019) . -1) 16591 nil (16589 . 16591) (t 23780 60760 684145 220000) nil (16579 . 16589) nil (16572 . 16579) nil (16506 . 16518) nil ("backup files" . 16506) ((marker . 16246) . -12) nil (16566 . 16570) nil (16561 . 16566) (16560 . 16562) ("\"" . -16560) (16560 . 16561) ("\"" . -16560) (16559 . 16561) nil (nil read-only t 16541 . 16559) (nil fontified nil 16541 . 16559) (nil field t 16541 . 16559) (16541 . 16559) nil (16539 . 16541) nil (16520 . 16539) ("set-face-fore" . -16520) ((marker . 16246) . -13) 16533 nil (16520 . 16533) (16519 . 16521) ("(" . -16519) (16519 . 16520) nil (16518 . 16519) (t 23780 60691 25038 519000) nil (16501 . 16518) (t 23780 60653 537353 706000) nil (16495 . 16499) nil (16490 . 16495) nil (16489 . 16491) ("\"" . -16489) (16489 . 16490) ("\"" . -16489) (16488 . 16490) nil (nil read-only t 16472 . 16488) (nil fontified nil 16472 . 16488) (nil field t 16472 . 16488) (16472 . 16488) nil (16470 . 16472) nil (16451 . 16470) ("set-face-for" . -16451) ((marker . 16246) . -12) 16463 nil (16451 . 16463) (16450 . 16452) ("(" . -16450) (16450 . 16451) nil (16449 . 16450) nil (16449 . 16450) (t 23780 60602 704083 129000) nil (16374 . 16381) nil (16369 . 16374) nil (" " . -16369) ((marker . 16246) . -1) (" " . -16370) ((marker . 16246) . -1) 16371 nil (16369 . 16371) nil (16436 . 16437) nil (16321 . 16324) nil ("y" . -16321) ((marker . 16246) . -1) 16322 nil (16308 . 16322) nil (16407 . 16420) nil (16402 . 16407) nil (16395 . 16400) nil ("orchid" . -16395) ((marker . 16246) . -6) 16401 nil (16395 . 16401) nil ("magenta" . -16395) ((marker . 16246) . -7) 16402 nil (16395 . 16402) nil ("deeppink" . -16395) ((marker . 16246) . -8) 16403 nil (16395 . 16403) nil ("m" . -16395) ((marker . 16246) . -1) ("a" . -16396) ((marker . 16246) . -1) ("r" . -16397) ((marker . 16246) . -1) ("o" . -16398) ((marker . 16246) . -1) ("o" . -16399) ((marker . 16246) . -1) ("n" . -16400) ((marker . 16246) . -1) ("1" . -16401) ((marker . 16246) . -1) 16402 nil (16398 . 16402) nil ("r" . -16398) ((marker . 16246) . -1) 16399 nil (16395 . 16399) nil (16394 . 16396) ("\"" . -16394) (16394 . 16395) ("\"" . -16394) (16393 . 16395) nil (nil read-only t 16376 . 16393) (nil fontified nil 16376 . 16393) (nil field t 16376 . 16393) (16376 . 16393) nil (16374 . 16376) nil (16355 . 16374) ("set-face-fo" . -16355) ((marker . 16246) . -11) 16366 nil (16355 . 16366) (16354 . 16356) ("(" . -16354) (16354 . 16355) nil (16353 . 16354) (t 23780 60210 24109 497000) nil (16346 . 16351) nil ("c" . -16346) ((marker . 16246) . -1) ("y" . -16347) ((marker . 16246) . -1) ("a" . -16348) ((marker . 16246) . -1) ("n" . -16349) ((marker . 16246) . -1) ("2" . -16350) ((marker . 16246) . -1) 16351 nil (16301 . 16306) nil ("green" . -16301) ((marker . 16246) . -5) 16306 nil ("y" . -16306) ((marker . 16246) . -1) ("e" . -16307) ((marker . 16246) . -1) ("l" . -16308) ((marker . 16246) . -1) ("l" . -16309) ((marker . 16246) . -1) ("o" . -16310) ((marker . 16246) . -1) ("w" . -16311) ((marker . 16246) . -1) 16312 nil (16306 . 16312) nil (16301 . 16306) nil ("c" . -16301) ((marker . 16246) . -1) ("y" . -16302) ((marker . 16246) . -1) ("a" . -16303) ((marker . 16246) . -1) ("n" . -16304) ((marker . 16246) . -1) ("2" . -16305) ((marker . 16246) . -1) 16306 nil (16346 . 16351) (16345 . 16347) ("\"" . -16345) (16345 . 16346) ("\"" . -16345) (16344 . 16346) nil (nil read-only t 16331 . 16344) (nil fontified nil 16331 . 16344) (nil field t 16331 . 16344) (16331 . 16344) nil (16329 . 16331) nil (16310 . 16329) ("set-face-fore" . -16310) ((marker . 16246) . -13) 16323 nil (16319 . 16323) nil ("b" . -16319) ((marker . 16246) . -1) 16320 nil (16310 . 16320) (16309 . 16311) ("(" . -16309) (16309 . 16310) nil (16308 . 16309) (t 23780 59835 543657 436000) nil (" " . -16308) ((marker . 16246) . -1) (" " . -16309) ((marker . 16246) . -1) (";" . -16310) ((marker . 16246) . -1) (";" . -16311) ((marker . 16246) . -1) (" " . -16312) ((marker . 16246) . -1) ("l" . -16313) ((marker . 16246) . -1) ("s" . -16314) ((marker . 16246) . -1) 16315 nil (16308 . 16315) (t 23780 59822 758966 540000) nil (16301 . 16306) (16300 . 16302) ("\"" . -16300) (16300 . 16301) ("\"" . -16300) (16300 . 16301) nil (16299 . 16300) nil (16280 . 16299) ("eshell-ls-di" . -16280) ((marker . 16246) . -12) 16292 nil (16287 . 16292) nil (16280 . 16287) nil undo-tree-canary))
+    (doom-modeline nyan-mode shell-pop ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo)))
+ '(shell-pop-full-span t)
+ '(shell-pop-shell-type
+   (quote
+    (\"eshell\" \"*eshell*\"
+     (lambda nil
+       (eshell shell-pop-term-shell)))))
+ '(shell-pop-term-shell \"/bin/bash\")
+ '(shell-pop-window-position \"bottom\")
+ '(shell-pop-window-size 40))" . -16585) nil (9005 . 9032) ("all-the-icons-install" . -9005) ((marker . 9033) . -21) 9026 nil (9019 . 9026) nil (9005 . 9019) (9004 . 9006) ("(" . -9004) (9004 . 9005) nil (9003 . 9004) (t 23781 64292 275581 638000) nil (8490 . 8495) nil ("blue" . -8490) ((marker . 9033) . -4) 8494 nil (8490 . 8494) nil ("tomato" . -8490) ((marker . 9033) . -6) 8496 (t 23781 63911 409607 236000) nil (7174 . 7177) (7133 . 7136) (7057 . 7060) (7017 . 7020) (7001 . 7004) (6960 . 6963) (6906 . 6909) 7183 (t 23781 63301 186624 794000) nil (8980 . 8982) nil (8962 . 8980) ("doom-modeline-mo" . -8962) 8978 nil (8969 . 8978) nil (8962 . 8969) nil (8961 . 8963) ("(" . -8961) (8961 . 8962) nil (8960 . 8961) nil (8946 . 8959) ("doom-" . -8946) 8951 nil (8937 . 8951) (8936 . 8938) ("(" . -8936) (8936 . 8937) nil (8935 . 8936) nil (8927 . 8935) nil ("d" . -8927) ("o" . -8928) ("o" . -8929) ("m" . -8930) ("-" . -8931) ("m" . -8932) ("o" . -8933) ("d" . -8934) ("e" . -8935) ("l" . -8936) ("i" . -8937) ("n" . -8938) ("e" . -8939) 8940 nil (8924 . 8940) nil (8923 . 8924) (t . 0) nil (18267 . 18752) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground \"lime\"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground \"lightskyblue\"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground \"deepskyblue\")))))" . -18267) (17312 . 17419) (17273 . 17280) ("    " . 17273) (17256 . 17261) ("  " . 17256) (17231 . 17235) (" " . 17231) ("
+" . -17303) (17267 . 17271) (17253 . 17255) (17231 . 17232) (17296 . 17297) (17263 . 17264) (" " . 17263) (17251 . 17252) (" " . 17251) (17230 . 17231) (" " . 17230) (17220 . 17296) (" " . 17220) (17169 . 17221) (16759 . 16763) (" " . 16759) ("
+" . -17166) (16759 . 16760) (17165 . 17166) (16758 . 16759) (" " . 16758) (16748 . 17165) (" " . 16748) (16475 . 16749) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (doom-modeline nyan-mode shell-pop ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo)))
+ '(shell-pop-full-span t)
+ '(shell-pop-shell-type
+   (quote
+    (\"eshell\" \"*eshell*\"
+     (lambda nil
+       (eshell shell-pop-term-shell)))))
+ '(shell-pop-term-shell \"/bin/bash\")
+ '(shell-pop-window-position \"bottom\")
+ '(shell-pop-window-size 40))" . -16475) nil undo-tree-canary))

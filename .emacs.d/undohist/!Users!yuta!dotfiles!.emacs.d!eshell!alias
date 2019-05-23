@@ -1,0 +1,31 @@
+
+((digest . "9fa0f2038c9954d876986f574c7d6a7b") (undo-list (1 . 108) ("alias python python3
+alias la ls -a
+alias ll ls -l
+alias rm rm -i
+" . 1) (t 23782 23919 669557 421000) (1 . 67) ("alias python = python3
+alias la ls -a
+alias ll ls -l
+alias rm rm -i
+" . 1) (t 23782 23901 676942 473000) (1 . 69) ("alias la ls -a
+alias ll ls -l
+alias rm rm -i
+" . 1) (t 23782 23854 113634 158000) (1 . 46) ("alias la ls -a
+alias ll ls -l
+alias rm rm -i
+" . 1) (t 23782 23847 555801 984000) (1 . 46) ("alias rm rm -i
+alias ll ls -l
+alias la ls -a
+" . 1) (t 23782 21935 44398 726000) (1 . 46) ("alias rm eshell/rm -i
+alias ll ls -l
+alias la ls -a
+" . 1) (t 23782 21900 407380 258000) (1 . 53) ("alias rm /eshell/hoge -i
+alias ll ls -l
+alias la ls -a
+" . 1) (t 23782 21848 567996 194000) (1 . 56) ("alias la ls -a
+alias ll ls -l
+" . 1) (t 23782 21740 65044 215000) nil ("
+" . 1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("alias rm rm -i" . 1) (t 23782 21628 34096 613000) nil (1 . 46) ("alias la ls -a
+alias ll ls -l
+" . 1) (t 23782 21593 27248 836000) (1 . 31) ("alias ll ls -l
+" . 1) (t 23782 21582 724511 827000) (1 . 16) (t . -1)))

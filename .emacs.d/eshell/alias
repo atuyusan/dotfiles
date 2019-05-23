@@ -1,3 +1,5 @@
-alias rm rm -i
-alias ll ls -l
+alias speedtest /usr/local/bin/speedtest
+alias python python3
 alias la ls -a
+alias ll ls -l
+alias rm rm -i

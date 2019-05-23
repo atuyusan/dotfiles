@@ -1,6 +1,7 @@
 # promptの設定
 PS1='[\u] \w \$ '
-#aliasの設定
+
+# aliasの設定
 alias ls='ls -FG'
 alias ll='ls -lFG'
 alias la='ls -aFG'

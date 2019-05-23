@@ -143,7 +143,7 @@
 
 ;; neotree - show directory tree
 (require 'neotree)
-(global-set-key (kbd "s-o") 'neotree-toggle)
+(global-set-key (kbd "s-t") 'neotree-toggle)
 (setq neo-theme 'ascii)  ;; theme
 (setq neo-smart-open t)  ;; show files in current directory
 
@@ -216,18 +216,18 @@
 ;;------------------------------
 
 ;; hiwin - visualize non-active window
-;; (require 'hiwin)
-;; (hiwin-activate)
-;; (set-face-background 'hiwin-face "gray25")
+(require 'hiwin)
+(hiwin-activate)
+(set-face-background 'hiwin-face "gray30")
 
 ;; show current directory on mode line
-(let ((ls (member 'mode-line-buffer-identification
-                  mode-line-format)))
-  (setcdr ls
-          (cons '(:eval (concat " ("
-                                (abbreviate-file-name default-directory)
-                                ")"))
-                (cdr ls))))
+;; (let ((ls (member 'mode-line-buffer-identification
+;;                   mode-line-format)))
+;;   (setcdr ls
+;;           (cons '(:eval (concat " ("
+;;                                 (abbreviate-file-name default-directory)
+;;                                 ")"))
+;;                 (cdr ls))))
 
 ;; title bar
 ;;show absolite path of file of buffer name
@@ -273,13 +273,13 @@
 
 ;; cursor
 ;; color
-(set-cursor-color "tomato")
+(set-cursor-color "white")
 ;; don't blink
 (blink-cursor-mode 0)
 
 ;; hilight current line
-;; (global-hl-line-mode t)
-;; (set-face-background 'hl-line "#424242")
+(global-hl-line-mode t)
+(set-face-background 'hl-line "#424242")
 
 ;; hilight brackets
 (show-paren-mode t)
@@ -292,6 +292,30 @@
 ;; start emacs with maximum window size
 (set-frame-parameter nil 'fullscreen 'maximized)
 
+;; nyan-mode
+(require 'nyan-mode)
+(nyan-mode)
+(nyan-start-animation)
+
+;; modeline
+(set-face-background 'mode-line "gray20")
+(set-face-foreground 'mode-line "lightgray")
+(line-number-mode -1)
+(add-hook 'after-save-hook
+          ;; flash after saving buffer
+          (lambda ()
+            (let ((orig-fg (face-background 'mode-line)))
+              (set-face-background 'mode-line "darkgreen")
+              (run-with-idle-timer 0.1 nil
+                                   (lambda (fg) (set-face-background 'mode-line fg))
+                                   orig-fg))))
+;; doom-modeline
+(require 'doom-modeline)
+(doom-modeline-mode 1)
+(setq doom-modeline-icon t)
+(setq doom-modeline-major-mode-icon nil)
+(setq doom-modeline-major-mode-color-icon nil)
+(setq doom-modeline-buffer-file-name-style 'truncate-with-project)
 
 ;;------------------------------
 ;; major modes
@@ -470,6 +494,11 @@
  	     (define-key ess-mode-map (kbd C-e) 'ess-eval-buffer)
  	     ))
 
+;; C/C++, Java
+;; cc-mode
+(defvar c-basic-offset 2)
+
+
 ;; ------------------------------
 ;; original major modes
 ;; ------------------------------
@@ -515,21 +544,46 @@
 
 ;; shell-pop
 (require 'shell-pop)
-(global-set-key (kbd "C-o") 'shell-pop)  ;; open / close
 (custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(shell-pop-shell-type (quote ("eshell" "*eshell*" (lambda nil (eshell shell-pop-term-shell)))))
  '(shell-pop-term-shell "/bin/bash")
- '(shell-pop-window-size 40)
+ '(shell-pop-universal-key "C-o")
+ '(shell-pop-window-size 30)
  '(shell-pop-full-span t)
  '(shell-pop-window-position "bottom"))
 
-;; eshell
-(set-face-foreground 'eshell-ls-directory "cyan2")
-(set-face-foreground 'eshell-prompt "green")
-(set-face-foreground 'eshell-ls-symlink "plum1")
-(set-face-foreground 'eshell-ls-backup "lightgray")
-(set-face-foreground 'eshell-ls-readonly "lightgray")
 
+;; eshell
+;; command history
+(defvar eshell-hist-ignoredups t)
+;; prompt
+(defvar eshell-prompt-function
+  (lambda nil
+    (concat
+     (propertize (eshell/pwd) 'face `(:foreground "green"))
+     (propertize " " 'face nil)
+     (propertize "$" 'face `(:foreground "green"))
+     (propertize " " 'face nil))))
+
+(defvar eshell-list-files-after-cd t)
+
+;; term
+(custom-set-faces
+ '(term-color-black ((t (:foreground "#3F3F3F" :background "#2B2B2B"))))
+ '(term-color-red ((t (:foreground "#AC7373" :background "#8C5353"))))
+ '(term-color-green ((t (:foreground "#7F9F7F" :background "#9FC59F"))))
+ '(term-color-yellow ((t (:foreground "#DFAF8F" :background "#9FC59F"))))
+ '(term-color-blue ((t (:foreground "cyan2" :background "#4C7073"))))
+ '(term-color-magenta ((t (:foreground "orchid1" :background "#CC9393"))))
+ '(term-color-cyan ((t (:foreground "#93E0E3" :background "#8CD0D3"))))
+ '(term-color-white ((t (:foreground "#DCDCCC" :background "#656555"))))
+ '(term-default-fg-color ((t (:inherit term-color-white))))
+ '(term-default-bg-color ((t (:inherit term-color-black))))
+ )
 
 ;;------------------------------
 ;; Others
@@ -555,14 +609,7 @@
 ;; don't create backup file  *.~
 (setq make-backup-files 'nil)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (shell-pop ess nasm-mode tuareg graphviz-dot-mode yasnippet yatex latex-math-preview ein py-yapf flycheck dumb-jump undohist undo-tree markdown-preview-mode rainbow-mode kotlin-mode popwin slime exec-path-from-shell fish-mode yaml-mode web-mode scss-mode ruby-electric ruby-block recentf-ext pos-tip pkg-info neotree multi-term impatient-mode hiwin dash counsel company avy-migemo))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

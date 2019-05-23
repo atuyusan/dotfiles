@@ -1,128 +1,128 @@
-cd ..
-ls
-cd tech/algorithm/
-ls
-touch queue.cpp
-touch queue.h
-exit
-mv queue.h my_queue.h
-mv queue.cpp my_queue.cpp
-ls 
-exit
+cd
+pwd
+cd study/
+pwd
+ll
 cd
 cd study/
-ls
-cd tech/algorithm/
-mv node.h linked_list.h
-exit
-cpp main.cpp
-exit
-c++ main.cpp
-./a.out 
-exit
-cd ../.ipynb_checkpoints/初めまして。那須悠太と申します。この度はご連絡をいただき、誠にありがとうございます。つい先日、就職活動を終了したため、オファーは辞退させていただきたく存じます。ご期待に添えず、大変申し訳ございません。
-cd ../tech/algorithm/
-rm hash.cpp 
-touch iterator.cpp
-exit
-c++ iterator.cpp 
-./a.out
-c++ lower_bound.cpp 
-./a.out
-exit
-c++ lower_bound.cpp 
-./a.out
-c++ lower_bound.cpp 
-./a.out
-exit
-c++ lower_bound.cpp 
-./a.out
-c++ lower_bound.cpp 
-c++ lower_bound.cpp 
-./a.out
-exit
-c++ lower_bound.cpp 
-./a.out
-exit
-c++ lower_bound.cpp 
-./a.out
-mv allocation.cpp exhaustive_search.cpp
-exit
-c++ main.cpp
-./a.out
-exit
-c++ main
-c++ main.cpp
-./a.out
-exit
-c++ main.cpp 
-./a.out
-eit
-exit
-cd ..
-ls
-cd tech/alds1
-cd tech/algorithm/
-ls
-exit
-ls
-touch sort.cpp stable_sort.cpp
-exit
-c++ sort.cpp
-./a.out
-exit
-c++ sort.cpp
-exit
-c++ sort.cpp 
-exit
-c++ sort.cpp
-./a.out
-exit
-ls *png
-open known-city.dot.png 
-exit 
-ls
-ls
-cd study/
-ls
-history
-ls
-which cd
-which rm
-python --version
-python
-r
-ls
-which source
-ll
-la 
-ls -l
-ls -a
-ls -Fa
-ls
-which cpp
-ls
 cd tech/
+ls java
+mkdir java
+cd java/
+java -version
+javac Test.java 
 ls
-cd algorithm
+java Test
+cd
+cd study/
+cd tech/java/
 ls
-./a.out
-exit
-which brew
-brew update
-brew upgrade
+rm Test.class Test.java 
 ls
-la
+rm Test.class 
+rm Test.java 
+ls
+type rm
+rm -f Test.class 
+ls
+touch hoge
+ls
+which rm
+/bin/rm hoge
+ls
+/bin/rm -i Test.java
+ehco "hoge"
+echo "hoge"
+echo $PATH
 ll
-echo "aiueo"
-cd dotfiles
+lambda
+la 
 ls
-git status
-git add .
-git commit -m "Set faces for eshell"
-git push origin master
-history 10 
+cd
+cd study/tech/java
 ls
-ls ..
+rm Test.class 
+ls
+rm -i Test.class
+/bin/rm -i Test.class
+type rm
+which rm
+ls
+touch hoge
+ls
+rm hoge
+cd
+touch hoge
+rm hoge
+ls
+type rm
+which rm
+rm -i hoge
+ls
+/bin/rm -i hoge
+alias rm "rm -i"
+which rm
+ls
+touch hoge
+rm hoge
+ls
+alias rm "/bin/rm -i"
+rm hoge
+type unalias
+unalias -a
+echo $PATH
+which unalias
+type unalias
+type rm
+which rm
+alias rm 'rm -i'
+rm
+ls
+rm hoge
+ls
+/bin/rm hoge
+ls
+alias rm "/bin/rm"
+touch hoge
+ls
+rm hgoe
+rm -i hoge
+unalias rm
+ls
+rm hoge
+alias 
+/bin/rm dotfiles/.emacs.d/eshell/alias 
+cd
+rm hoge
+ls
+which rm
+touch hoge
+ls
+eshell/rm hoge
+ls
+touch hoge
+eshell/rm -i hoge
+ls
+alias rm "/eshell/hoge -i"
+touch hoge
+rm hoge
+which rm
+alias rm "eshell/rm -i"
+which rm
+ls
+rm hoge
+ls
+alias rm "rm -i"
+rm hoge
+ls
+which rm
+/bin/rm -i hoge
+unalias
+unalias -a
+alias
+ls
+alias
+ls
+exit
 ls
 exit
