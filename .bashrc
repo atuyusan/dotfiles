@@ -19,6 +19,8 @@ alias cd=cdls
 alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
+alias sbr="source $HOME/dotfiles/.bashrc "
+alias sbp="source $HOME/dotfiles/.bash_profile "
 
 # 環境変数
 export dl="$HOME/Downloads/"
