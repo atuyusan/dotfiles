@@ -1,3 +1,10 @@
-set nocompatible
-syntax enable
-filetype plugin indent on
+" 行番号を表示
+set number
+" 現在行を強調
+set cursorline
+" スマートインデント
+set smartindent
+" TABにスペースを使う
+set expandtab
+" TAB幅
+set tabstop=2
