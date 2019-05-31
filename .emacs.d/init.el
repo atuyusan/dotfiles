@@ -2,9 +2,8 @@
 ;;ロードパスの設定（初めに書いておく）
 ;;------------------------------
 
-;;function add load-path
-
 (defun add-to-load-path (&rest paths)
+  "Add directories and their subdirectories to load PATHS."
   (let (path)
     (dolist (path paths paths)
       (let ((default-directory
@@ -13,18 +12,17 @@
         (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
             (normal-top-level-add-subdirs-to-load-path))))))
 
-;;add directories and their subdirectories to load-path
+
 (add-to-load-path "elisp" "elpa" "public_repos")
 
 ;;------------------------------
 ;; PATH
 ;;------------------------------
 
-;; cf. https://qiita.com/catatsuy/items/3dda714f4c60c435bb25
-
-;;PATHを引き継ぐ
 (defun set-exec-path-from-shell-PATH ()
-  "Set up Emacs' `exec-path' and PATH environment variable to match that used by the user's shell.This is particularly useful under Mac OSX, where GUI apps are not started from a shell."
+  "Set up Emacs' `exec-path' and PATH environment variable to match that used by the user's shell.
+
+This is particularly useful under Mac OSX, where GUI apps are not started from a shell."
   (interactive)
   (let ((path-from-shell (replace-regexp-in-string "[ \t\n]*$" "" (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'"))))
     (setenv "PATH" path-from-shell)
@@ -421,6 +419,10 @@
 (add-to-list 'auto-mode-alist '("\\.css?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.js?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.erb?\\'" . web-mode))
+;; web-mode tag highlighting
+(setq web-mode-enable-current-element-highlight t)
+(set-face-background 'web-mode-current-element-highlight-face "aquamarine1")
+(set-face-foreground 'web-mode-current-element-highlight-face "black")
 ;; web-mode, indent
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
@@ -549,12 +551,19 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(shell-pop-shell-type (quote ("eshell" "*eshell*" (lambda nil (eshell shell-pop-term-shell)))))
+ '(package-selected-packages
+   (quote
+    (yatex yasnippet yaml-mode web-mode undohist undo-tree tuareg term+ slime shell-pop scss-mode ruby-electric ruby-block recentf-ext rainbow-mode py-yapf pos-tip popwin nyan-mode neotree nasm-mode multi-term markdown-preview-mode latex-math-preview kotlin-mode julia-mode impatient-mode hiwin graphviz-dot-mode flycheck fish-mode exec-path-from-shell ess ein dumb-jump doom-themes doom-modeline counsel company avy-migemo)))
+ '(shell-pop-full-span t)
+ '(shell-pop-shell-type
+   (quote
+    ("eshell" "*eshell*"
+     (lambda nil
+       (eshell shell-pop-term-shell)))))
  '(shell-pop-term-shell "/bin/bash")
  '(shell-pop-universal-key "C-o")
- '(shell-pop-window-size 30)
- '(shell-pop-full-span t)
- '(shell-pop-window-position "bottom"))
+ '(shell-pop-window-position "bottom")
+ '(shell-pop-window-size 30))
 
 
 ;; eshell
@@ -573,17 +582,23 @@
 
 ;; term
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(slime-repl-inputed-output-face ((t (:foreground "lime"))))
+ '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground "lightskyblue"))))
+ '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground "deepskyblue"))))
  '(term-color-black ((t (:foreground "#3F3F3F" :background "#2B2B2B"))))
- '(term-color-red ((t (:foreground "#AC7373" :background "#8C5353"))))
- '(term-color-green ((t (:foreground "#7F9F7F" :background "#9FC59F"))))
- '(term-color-yellow ((t (:foreground "#DFAF8F" :background "#9FC59F"))))
  '(term-color-blue ((t (:foreground "cyan2" :background "#4C7073"))))
- '(term-color-magenta ((t (:foreground "orchid1" :background "#CC9393"))))
  '(term-color-cyan ((t (:foreground "#93E0E3" :background "#8CD0D3"))))
+ '(term-color-green ((t (:foreground "#7F9F7F" :background "#9FC59F"))))
+ '(term-color-magenta ((t (:foreground "orchid1" :background "#CC9393"))))
+ '(term-color-red ((t (:foreground "#AC7373" :background "#8C5353"))))
  '(term-color-white ((t (:foreground "#DCDCCC" :background "#656555"))))
- '(term-default-fg-color ((t (:inherit term-color-white))))
+ '(term-color-yellow ((t (:foreground "#DFAF8F" :background "#9FC59F"))))
  '(term-default-bg-color ((t (:inherit term-color-black))))
- )
+ '(term-default-fg-color ((t (:inherit term-color-white)))))
 
 ;;------------------------------
 ;; Others
@@ -610,11 +625,4 @@
 (setq make-backup-files 'nil)
 
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(slime-repl-inputed-output-face ((t (:foreground "lime"))))
- '(slime-repl-output-face ((t (:inherit font-lock-string-face :foreground "lightskyblue"))))
- '(slime-repl-prompt-face ((t (:inherit font-lock-keyword-face :foreground "deepskyblue")))))
+
