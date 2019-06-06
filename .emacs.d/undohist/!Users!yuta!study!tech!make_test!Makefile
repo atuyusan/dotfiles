@@ -1,0 +1,12 @@
+
+((digest . "28288c5c493dc3e356418fa5a70eb84b") (undo-list nil (53 . 55) nil (51 . 53) nil (30 . 51) nil (25 . 30) nil (24 . 25) nil (23 . 24) nil (13 . 23) nil (1 . 13) (t 23783 38174 282012 470000) nil ("
+" . 1) ((marker . 55) . -1) nil ("	gcc -o hello hello.c sayhi.c" . 1) ((marker . 1) . -21) ((marker . 1) . -29) ((marker . 1) . -29) ((marker . 1) . -29) ((marker . 1) . -29) nil ("
+" . 1) ((marker . 55) . -1) nil ("hello: hello.c sayhi.c" . 1) (t 23783 36709 914996 679000) nil (48 . 53) nil ("h" . -48) ((marker) . -1) ("i" . -49) ((marker) . -1) ("." . -50) ((marker) . -1) 51 nil (45 . 51) nil (17 . 23) nil (16 . 17) nil ("h" . -16) ((marker) . -1) ("e" . -17) ((marker) . -1) ("l" . -18) ((marker) . -1) ("l" . -19) ((marker) . -1) ("o" . -20) ((marker) . -1) 21 nil (15 . 21) (t 23783 36436 445354 804000) nil (37 . 38) nil (17 . 37) nil (16 . 17) nil (15 . 16) nil (12 . 15) nil (1 . 12) (t 23783 36418 835696 126000) nil ("CC := gcc
+CFLAGS := -g -Wall -Wextra
+
+hello:
+
+clean:
+	$(RM) hello
+" . 1) ((marker) . -53) ((marker . 55) . -10) ((marker . 1) . -66) ((marker) . -66) (t 23783 36259 540328 523000) nil (31 . 37) nil ("w" . -31) ((marker) . -1) 32 nil (25 . 32) nil (11 . 25) nil (10 . 11) (t 23783 36094 988291 346000) nil (33 . 39) nil (30 . 32) (29 . 31) ("(" . -29) (28 . 30) nil (27 . 28) nil ("$(RM) hello" . 27) (t 23783 36064 104478 164000) nil (32 . 38) nil (29 . 31) (28 . 30) ("(" . -28) (27 . 29) nil (26 . 27) nil (22 . 26) nil ("e" . -22) ((marker) . -1) 23 nil (20 . 23) nil (18 . 20) (t 23783 36002 327811 699000) nil (10 . 11) nil (5 . 10) nil ("-" . -5) ((marker) . -1) 6 nil (1 . 6) nil (1 . 2) (t 23783 35824 49919 949000) nil (7 . 8) nil (1 . 7) (t 23783 35661 464150 879000) nil ("
+" . 1) ((marker . 55) . -1) nil ("echo	\"Hello\"" . 1) (t 23783 35547 84595 126000)))

@@ -252,17 +252,48 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (setq-default tab-width 2)
 
 ;; faces
-(set-face-background 'default "#131926")
-(set-face-foreground 'default "lightgray")
-(set-face-foreground 'font-lock-string-face "lightskyblue")
-(set-face-foreground 'font-lock-comment-face "deepskyblue1")
-(set-face-foreground 'font-lock-keyword-face "cyan2")
-(set-face-foreground 'font-lock-variable-name-face "lightgray")
-(set-face-foreground 'font-lock-constant-face "cyan2")
-(set-face-foreground 'font-lock-builtin-face "cyan2")
-(set-face-foreground 'font-lock-function-name-face "green")
-(set-face-foreground 'font-lock-doc-face "deepskyblue1")
-(set-face-foreground 'font-lock-type-face "greenyellow")
+
+(defun set-colors-dark-ice ()
+  "Set faces."
+  (interactive)
+  (set-frame-parameter nil 'alpha 95)
+  (set-face-background 'default "gray10")
+  (set-face-foreground 'default "lightgray")
+  (set-face-foreground 'font-lock-string-face "seagreen2")
+  (set-face-foreground 'font-lock-comment-face "lightskyblue3")
+  (set-face-foreground 'font-lock-doc-face "darkslategray3")
+  (set-face-foreground 'font-lock-keyword-face "cyan3")
+  (set-face-foreground 'font-lock-variable-name-face "deepskyblue1")
+  (set-face-foreground 'font-lock-constant-face "turquoise2")
+  (set-face-foreground 'font-lock-builtin-face "paleturquoise1")
+  (set-face-foreground 'font-lock-function-name-face "green1")
+  (set-face-foreground 'font-lock-type-face "cadetblue1"))
+
+;; (defun set-colors-light-blue ()
+;;   "Set face."
+;;   (interactive)
+;;   (set-frame-parameter nil 'alpha 95)
+;;   (set-face-background 'default "gray95")
+;;   (set-face-foreground 'default "gray20")
+;;   (set-face-foreground 'font-lock-comment-face "gray60")
+;;   (set-face-foreground 'font-lock-doc-face "gray60")
+;;   (set-face-foreground 'font-lock-string-face "darkcyan")
+;;   (set-face-foreground 'c-annotation-face "purple1")
+;;   (set-face-foreground 'font-lock-constant-face "purple1")
+;;   (set-face-foreground 'font-lock-keyword-face "slateblue1")
+;;   (set-face-foreground 'font-lock-type-face "purple1")
+;;   (set-face-foreground 'font-lock-builtin-face "deepskyblue3")
+;;   (set-face-foreground 'font-lock-function-name-face "skyblue4")
+;;   (set-face-foreground 'font-lock-variable-name-face "dodgerblue3")
+;;   (set-face-background 'hiwin-face "gray85")
+;;   (global-hl-line-mode t)
+;;   (set-face-background 'hl-line "gray85")
+;;   (set-cursor-color "blue3"))
+
+(set-colors-dark-ice)
+
+
+
 
 ;; opacity
 (if window-system
@@ -277,7 +308,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 ;; hilight current line
 (global-hl-line-mode t)
-(set-face-background 'hl-line "#424242")
+(set-face-background 'hl-line "gray30")
 
 ;; hilight brackets
 (show-paren-mode t)

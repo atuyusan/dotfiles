@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: init
+# key: init
+# --
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charaset="utf-8">
+    <title>$0</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+  
+  </body>
+</html>

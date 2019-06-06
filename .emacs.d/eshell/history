@@ -1,128 +1,117 @@
-cd
+ls
+mkdir Sample1 
+mv *.class Sample1/
+mv Sample1.java Sample1/
+cd Sample1/
+cd ..
+mkdir Sample2/
+cd Sample2/
+cd ../Sample2/
+cd ..
+mkdir 
+mkdir Sample3/
+cd Sample1/
+cd ..
+cd Sample3/
+touch Sample3.java
+cd ..
+mkdir Sample4
+cd Sample1/
+cd $tech
+echo $tech
+cd study/tech/java/
+mkdir chaper12
 pwd
-cd study/
-pwd
-ll
+touch Car.java
+mv Sample2.java Sample3.java
+cd ..
+mkdir pb
+cd ..
+mkdir pc
+cp pa/Car.java pc/Car.java
+cd ..
+mv pc/Sample5.java pb/Sample5.java 
+ls pc/
+ls pb 
+javac pb/Sample5.java 
+cd ..
+mkdir -p pa/sub
+cd pa/sub/
+ls
+cd ..2
+cd ../..
+cd ..
+mkdir -p chapter14/sample1
+cd chapter14/sample1/
+mkdir ../Sample3
+cp Sample1.java  ../Sample3/Sample3.java
+cd ..
+mkdir sample4
+cp ../sample3/Sample3.java  ./Sample4.java 
+cd ..
+mkdir sample5
+cd sample5/
+cd ..
+mkdir sample6
+cd sample6/
+cd ..
+mkdir sample7
+cd sample7/
+mkdir ../sample8
+cp text1.txt ../sample8/
+cd ../sample8/
+mkdir ../sample9
+cd ../sample9/
+touch text2.txt
+touch Sample9.java
+cd ..
+mkdir practice
+cd practice/
+cd ../..
+mkdir -p chapter15/saqmple1
+cd chapter15/saqmple1/
+mkdir ../sample2
+cp Sample1.java ../sample2/
+mkdir ../sample3
+mkdir ../sample4
+ls　
+cp Sample3.java ../sample4/Sample4.java
+mkdir ../sample5
+cp Sample4.java ../sample5/
+cd ../
+mv saqmple1/ sample1
+mkdir sample6
+cd sample6/
+mkdir ../sample7
+cd ../ex2
+mkdir ../ex2
+cp Hello.java ../ex2/Hello2.java
+cp Example1.java ../ex2/Example2.java
+cd ..
+mkdir chapter16
+cd chapter16/
+mkdir sample1
+cd sample1/
+mkdir ../sample2
+cp Sample1.java ../sample2/Sample2.java
+cd ../sample2/
+cd simpleApp/
+mkdir templates
 cd
 cd study/
-cd tech/
-ls java
-mkdir java
-cd java/
-java -version
-javac Test.java 
-ls
-java Test
+cd work/
 cd
-cd study/
-cd tech/java/
-ls
-rm Test.class Test.java 
-ls
-rm Test.class 
-rm Test.java 
-ls
-type rm
-rm -f Test.class 
-ls
-touch hoge
-ls
-which rm
-/bin/rm hoge
-ls
-/bin/rm -i Test.java
-ehco "hoge"
-echo "hoge"
-echo $PATH
-ll
-lambda
-la 
-ls
-cd
-cd study/tech/java
-ls
-rm Test.class 
-ls
-rm -i Test.class
-/bin/rm -i Test.class
-type rm
-which rm
-ls
-touch hoge
-ls
-rm hoge
-cd
-touch hoge
-rm hoge
-ls
-type rm
-which rm
-rm -i hoge
-ls
-/bin/rm -i hoge
-alias rm "rm -i"
-which rm
-ls
-touch hoge
-rm hoge
-ls
-alias rm "/bin/rm -i"
-rm hoge
-type unalias
-unalias -a
-echo $PATH
-which unalias
-type unalias
-type rm
-which rm
-alias rm 'rm -i'
-rm
-ls
-rm hoge
-ls
-/bin/rm hoge
-ls
-alias rm "/bin/rm"
-touch hoge
-ls
-rm hgoe
-rm -i hoge
-unalias rm
-ls
-rm hoge
-alias 
-/bin/rm dotfiles/.emacs.d/eshell/alias 
-cd
-rm hoge
-ls
-which rm
-touch hoge
-ls
-eshell/rm hoge
-ls
-touch hoge
-eshell/rm -i hoge
-ls
-alias rm "/eshell/hoge -i"
-touch hoge
-rm hoge
-which rm
-alias rm "eshell/rm -i"
-which rm
-ls
-rm hoge
-ls
-alias rm "rm -i"
-rm hoge
-ls
-which rm
-/bin/rm -i hoge
-unalias
-unalias -a
-alias
-ls
-alias
-ls
-exit
-ls
-exit
+cd work/templates
+mkdir work/templates
+cd templates
+cd work/templates/
+touch index.html
+mkdir css
+mv css/style.css ./
+ls 
+cd ..
+git status
+git add .emacs.d/init.el 
+git commit -m "[Emacs] Set html tag-hilighting"
+ls 
+touch edit.html search.html

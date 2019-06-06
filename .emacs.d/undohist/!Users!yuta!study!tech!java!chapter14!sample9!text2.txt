@@ -1,0 +1,3 @@
+
+((digest . "3ddf737faab2bffcc271c216fa70d9e6") (undo-list (24 . 25) nil ("
+" . -24) ((marker . 24) . -1) ((marker . 22) . -1) ((marker . 24) . -1) ((marker* . 25) . 1) 25 nil (24 . 25) nil (22 . 24) nil (21 . 22) nil (19 . 21) nil (18 . 19) nil (16 . 18) nil (15 . 16) nil (13 . 15) nil (12 . 13) nil (10 . 12) nil (9 . 10) nil (7 . 9) nil (6 . 7) nil (4 . 6) nil (3 . 4) nil (1 . 3) (t 23785 64324 949443 776000)))
