@@ -28,3 +28,4 @@ unset __conda_setup
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH

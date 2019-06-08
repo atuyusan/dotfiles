@@ -120,10 +120,10 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (global-set-key (kbd "C-w") 'kill-ring-save)
 
 ;; go to beginning of buffer
-(global-set-key (kbd "C-,") 'beginning-of-buffer)
+(global-set-key (kbd "C-c C-,") 'beginning-of-buffer)
 
 ;; go to end of buffer
-(global-set-key (kbd "C-.") 'end-of-buffer)
+(global-set-key (kbd "C-c C-.") 'end-of-buffer)
 
 ;;------------------------------
 ;;補完・検索・文法チェック
@@ -214,9 +214,9 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;;------------------------------
 
 ;; hiwin - visualize non-active window
-(require 'hiwin)
-(hiwin-activate)
-(set-face-background 'hiwin-face "gray30")
+;; (require 'hiwin)
+;; (hiwin-activate)
+;; (set-face-background 'hiwin-face "gray30")
 
 ;; show current directory on mode line
 ;; (let ((ls (member 'mode-line-buffer-identification
@@ -341,9 +341,10 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 ;; doom-modeline
 (require 'doom-modeline)
 (doom-modeline-mode 1)
-(setq doom-modeline-icon t)
+(setq doom-modeline-icon nil)
 (setq doom-modeline-major-mode-icon nil)
-(setq doom-modeline-major-mode-color-icon nil)
+(setq doom-modeline-major-mode-color-icon t)
+(setq doom-modeline-buffer-encoding nil)
 (setq doom-modeline-buffer-file-name-style 'truncate-with-project)
 
 ;;------------------------------
@@ -487,14 +488,25 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 
 ;; --- Python ---
 
-;; ;; python-mode
-;; (require 'python-mode)
-;; (add-to-list 'auto-mode-alist '("\\\.py\\\'" . python-mode))
-;; (add-to-list 'interpreter-mode-alist '("python" . python-mode))
+;; elpy
+(package-initialize)
+(elpy-enable)
+(add-hook 'elpy-mode-hook
+          '(lambda ()
+             ;; keybind
+             (define-key elpy-mode-map (kbd "C-,") 'elpy-nav-indent-shift-left)
+             (define-key elpy-mode-map (kbd "C-.") 'elpy-nav-indent-shift-right)
+             (define-key elpy-mode-map (kbd "s-c s-s") 'elpy-shell-switch-to-shell)
+             ;; format code automatically
+             (add-hook 'elpy-mode-hook 'py-yapf-enable-on-save)))
+;; use flycheck as syntax checker
+(when (require 'flyckeck nil t)
+  (remove-hook 'elpy-modules 'elpy-module-flymake)
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
 
-;; py-yapf - auto format
-(require 'py-yapf)
-(add-hook 'python-mode-hook 'py-yapf-enable-on-save)
+
+
+
 
 
 ;; --- org-mode ---
@@ -584,7 +596,7 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yatex yasnippet yaml-mode web-mode undohist undo-tree tuareg term+ slime shell-pop scss-mode ruby-electric ruby-block recentf-ext rainbow-mode py-yapf pos-tip popwin nyan-mode neotree nasm-mode multi-term markdown-preview-mode latex-math-preview kotlin-mode julia-mode impatient-mode hiwin graphviz-dot-mode flycheck fish-mode exec-path-from-shell ess ein dumb-jump doom-themes doom-modeline counsel company avy-migemo)))
+    (elpy yatex yasnippet yaml-mode web-mode undohist undo-tree tuareg term+ slime shell-pop scss-mode ruby-electric ruby-block recentf-ext rainbow-mode py-yapf pos-tip popwin nyan-mode neotree nasm-mode multi-term markdown-preview-mode latex-math-preview kotlin-mode julia-mode impatient-mode hiwin graphviz-dot-mode flycheck fish-mode exec-path-from-shell ess ein dumb-jump doom-themes doom-modeline counsel company avy-migemo)))
  '(shell-pop-full-span t)
  '(shell-pop-shell-type
    (quote

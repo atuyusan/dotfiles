@@ -1,4 +1,3 @@
-ls
 mkdir Sample1 
 mv *.class Sample1/
 mv Sample1.java Sample1/
@@ -37,7 +36,6 @@ javac pb/Sample5.java
 cd ..
 mkdir -p pa/sub
 cd pa/sub/
-ls
 cd ..2
 cd ../..
 cd ..
@@ -115,3 +113,7 @@ git add .emacs.d/init.el
 git commit -m "[Emacs] Set html tag-hilighting"
 ls 
 touch edit.html search.html
+ls
+echo $PATH
+type yapf
+type black
